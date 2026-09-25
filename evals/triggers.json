@@ -1,0 +1,29 @@
+{
+  "status": "not_host_tested",
+  "cases": [
+    {
+      "prompt": "写一个无选项的视觉小说开场。",
+      "expected": "trigger"
+    },
+    {
+      "prompt": "继续当前 VN 项目的下一场。",
+      "expected": "trigger_with_project_context"
+    },
+    {
+      "prompt": "按剧本分析这条路线为什么接不上。",
+      "expected": "trigger_when_VN_context_exists"
+    },
+    {
+      "prompt": "翻译这段英文邮件。",
+      "expected": "do_not_trigger"
+    },
+    {
+      "prompt": "修复 RenPy 的打包报错，不改剧本。",
+      "expected": "do_not_trigger_engine_only"
+    },
+    {
+      "prompt": "推荐最新的十款视觉小说。",
+      "expected": "do_not_trigger_recommendation_only"
+    }
+  ]
+}

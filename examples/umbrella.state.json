@@ -1,0 +1,13 @@
+{
+  "format": "vnmd-0.1",
+  "entry": "START",
+  "defaults": {
+    "borrowed": false,
+    "repaired": false,
+    "knows_book": false
+  },
+  "invariants": [
+    {"id": "one_umbrella_plan", "expr": "not (borrowed and repaired)"},
+    {"id": "book_requires_repair_scene", "expr": "not knows_book or repaired"}
+  ]
+}
