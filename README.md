@@ -1,8 +1,127 @@
 # Visual Novel Writing · 视觉小说写作
 
-[简体中文](#简体中文) · [English](#english) · [日本語](#日本語)
+[English](#english) · [简体中文](#简体中文) · [日本語](#日本語)
 
-一个面向视觉小说、Galgame 和文字冒险创作的 Agent Skill。当前版本：**0.33.0**。
+
+<a id="english"></a>
+## English
+
+**An Agent Skill for writing visual novels and narrative games**. Use it for story development, scene drafting, continuation, revision, route and choice design, continuity checks, and technique analysis. It supports both linear and branching stories. Current version: **0.33.0**.
+
+The skill instructions are currently written in Chinese. They direct the agent to follow the language requested for the manuscript and the language of the project materials.
+
+### Why this skill
+
+VN writing is more than producing good dialogue. A scene may need to advance an immediate action, reveal a relationship, manage what the player knows, and establish readable causes for a choice or later route. A scene can be logically consistent and still fail to hold a player's attention.
+
+This skill helps an agent identify the requested deliverable, write the actual prose, check causality and continuity, and then read the path a player would encounter. It uses examples to form testable techniques rather than fixed templates. It does not prescribe a genre, voice, route count, or ending structure; the project's canon and the user's instructions take precedence.
+
+### What it can help with
+
+| Task | Expected deliverable |
+|---|---|
+| Develop a premise or outline | A character-driven concept, structural outline, and any requested scene sample |
+| Draft or continue a scene | Usable prose that connects to the existing context, not just a summary |
+| Revise a passage or manuscript | Prioritized diagnosis, root causes, revised prose, and any needed continuity updates |
+| Design choices, routes, or convergence | Clear player intent, state and knowledge differences, convergence conditions, and readable consequences |
+| Check continuity and player paths | Character knowledge, relationship changes, what each path reveals, and whether the paths hold together |
+| Plan presentation cues | How dialogue, action, visual/audio cues, and scene function relate; script cues are not treated as verified in-game behavior |
+| Extract techniques from examples | Candidate technique cards with sources, observations, inferences, conditions, counterexamples, and transfer exercises |
+
+### How it works
+
+1. **Read the project materials.** Preserve established facts, character voice, canon, and format; ask only for information the current task actually needs.
+2. **Define what the scene changes.** Identify the characters' immediate goals, obstacles, knowledge, and the action or relationship change at the end.
+3. **Write or revise the actual text.** Deliver a scene when asked for a scene; give a located diagnosis before changing a manuscript when asked for feedback.
+4. **Check causality and interaction.** Make sure actions are motivated, choices communicate what the player is doing, and route state and shared text do not contradict one another.
+5. **Read the player-facing path.** Separate logic checks from reading experience: inspect clarity, pace, character distinction, exposition, and the reason to keep reading.
+6. **Deliver the artifact and summarize changes.** Provide usable text or files and note material changes and what remains unverified.
+
+This is a task-oriented workflow, not a mandatory questionnaire. Keep small requests small, and load only the references or templates that apply.
+
+### Installation and use
+
+From a Codex project directory:
+
+```bash
+mkdir -p .agents/skills
+git clone https://github.com/kantegger/visual-novel-writing.git .agents/skills/visual-novel-writing
+```
+
+For use across projects, install under the user-level skills directory:
+
+```bash
+mkdir -p "$HOME/.agents/skills"
+git clone https://github.com/kantegger/visual-novel-writing.git "$HOME/.agents/skills/visual-novel-writing"
+```
+
+In a Codex environment that discovers this path, invoke it with `$visual-novel-writing`. If the host does not discover it automatically, ask the agent to read `SKILL.md` from the installed folder and follow the relevant references. Other Agent Skills hosts may use different discovery paths and invocation rules; follow their documentation.
+
+Example prompt:
+
+```text
+$visual-novel-writing
+
+Read the outline, character notes, and Chapter 2 in this project.
+Draft only the opening of Chapter 3; do not restructure the whole story.
+Preserve established voices and confirmed plot facts.
+Write a scene that can go directly into the manuscript. Check what each character
+currently knows and whether the scene's causes are clear; remove repeated explanation.
+Save the result as chapter-03-opening.md and summarize the main changes.
+```
+
+You do not need to fill in every template first. Provide the existing materials, the scope of this task, and the expected deliverable.
+
+### What's included
+
+```text
+visual-novel-writing/
+├── SKILL.md                    Main entry point: task routing, writing loop, quality boundaries
+├── agents/openai.yaml          Codex interface metadata
+├── references/                 Structure, scenes, interaction, continuity, revision, and examples
+│   ├── corpus-techniques.md     32 candidate technique cards with conditions and counterexamples
+│   ├── source-index.md          Work index for the technique cards
+│   ├── source-study.md          Method for evaluating source material and extracting techniques
+│   └── ...
+├── assets/templates/            Optional project, scene, choice, and continuity templates
+├── examples/                    Original branching example, state, path, and reading version
+├── scripts/vnmd.py              Optional VNMD text and path utility
+├── tests/                       Unit tests for the VNMD utility
+└── evals/                       Writing-evaluation prompts and trigger boundaries
+```
+
+References are loaded as needed: `structure.md` for concepts and outlines; `scene-craft.md` for scenes and character action; `interaction.md` for choices, state, and convergence; `continuity.md` for knowledge and consistency; `direction.md` for presentation cues; `quality.md` and `revision.md` for reading checks and revision; and `corpus-techniques.md` for bounded examples, not style rules.
+
+### Optional VNMD utility
+
+You can write in ordinary Markdown without running any scripts. If a project needs explicit nodes, conditions, and choices, try this package's **VNMD-0.1** format and `scripts/vnmd.py` to lint structure, trace a choice path, or sample states.
+
+VNMD is a lightweight convention defined by this project, not an industry standard or game engine format. It cannot judge whether a scene is compelling or guarantee compatibility with an engine. The utility uses only the Python 3.10+ standard library and does not access the network or external models. From the repository root:
+
+```bash
+python -m unittest discover -s tests -v
+python scripts/vnmd.py lint examples/umbrella.vnm.md --state examples/umbrella.state.json
+python scripts/vnmd.py trace examples/umbrella.vnm.md --state examples/umbrella.state.json --choices examples/umbrella.path.json
+python scripts/vnmd.py sample examples/umbrella.vnm.md --state examples/umbrella.state.json --runs 200 --seed 17
+```
+
+Passing a tooling check does not establish story quality.
+
+### Source examples, evaluation, and limitations
+
+The technique cards analyze local passages from visual novels and other narrative games. They distinguish what the text shows from what an editor thinks it may do, and include conditions, failure cases, and original transfer exercises. A single passage is not treated as a universal rule.
+
+This repository does not contain or host complete game scripts, images, or audio. The cards retain only necessary short textual references, paraphrases, and commentary. See [`references/source-index.md`](references/source-index.md) for work titles and card IDs. The works and related intellectual property belong to their respective rights holders. Locations refer to particular text versions; a translation or extraction alone cannot establish the original-language writing, in-game presentation, or player experience.
+
+The repository includes 16 writing prompts and 6 trigger boundaries as reusable evaluation inputs, not performance results. This version has not had an independent model comparison, blind evaluation, real-reader study, or in-engine playtest. It therefore does not guarantee compelling output or claim proven improvement across projects. Evaluate it against the actual project, complete player paths, and reader feedback.
+
+### Contributions and license
+
+Issues and pull requests are welcome when they describe a concrete writing failure or reference problem. Include reproducible task context, the expected and actual result, and—when adding a technique—its source, text version, evidence limits, transfer conditions, and counterexample. Do not submit complete game scripts, game assets, unauthorized manuscripts, or identifiable private project material.
+
+Original skill instructions, templates, examples, technique analysis, and utility code in this repository are available under the [MIT License](LICENSE). The license does not relicense third-party text referenced in technique cards or grant rights to any game, character, script, image, audio, or trademark.
+
+---
 
 <a id="简体中文"></a>
 ## 简体中文
@@ -120,126 +239,6 @@ python scripts/vnmd.py sample examples/umbrella.vnm.md --state examples/umbrella
 欢迎针对明确的写作失败或参考资料问题提交 issue 或 pull request。请提供可复现的任务上下文、预期交付与实际问题；新增案例应给出作品来源、文本版本、证据限制、迁移条件和反例。请勿提交完整游戏脚本、游戏素材、未授权稿件或可识别的私人项目内容。
 
 本仓库原创的 skill 指令、模板、示例、技法分析和工具代码采用 [MIT License](LICENSE)。MIT 许可不重新授权技法卡中引用的第三方短文本，也不授予任何游戏、角色、脚本、图片、音频或商标的权利。
-
----
-
-<a id="english"></a>
-## English
-
-**An Agent Skill for writing visual novels and narrative games.** Use it for story development, scene drafting, continuation, revision, route and choice design, continuity checks, and technique analysis. It supports both linear and branching stories. Current version: **0.33.0**.
-
-The skill instructions are currently written in Chinese. They direct the agent to follow the language requested for the manuscript and the language of the project materials.
-
-### Why this skill
-
-VN writing is more than producing good dialogue. A scene may need to advance an immediate action, reveal a relationship, manage what the player knows, and establish readable causes for a choice or later route. A scene can be logically consistent and still fail to hold a player's attention.
-
-This skill helps an agent identify the requested deliverable, write the actual prose, check causality and continuity, and then read the path a player would encounter. It uses examples to form testable techniques rather than fixed templates. It does not prescribe a genre, voice, route count, or ending structure; the project's canon and the user's instructions take precedence.
-
-### What it can help with
-
-| Task | Expected deliverable |
-|---|---|
-| Develop a premise or outline | A character-driven concept, structural outline, and any requested scene sample |
-| Draft or continue a scene | Usable prose that connects to the existing context, not just a summary |
-| Revise a passage or manuscript | Prioritized diagnosis, root causes, revised prose, and any needed continuity updates |
-| Design choices, routes, or convergence | Clear player intent, state and knowledge differences, convergence conditions, and readable consequences |
-| Check continuity and player paths | Character knowledge, relationship changes, what each path reveals, and whether the paths hold together |
-| Plan presentation cues | How dialogue, action, visual/audio cues, and scene function relate; script cues are not treated as verified in-game behavior |
-| Extract techniques from examples | Candidate technique cards with sources, observations, inferences, conditions, counterexamples, and transfer exercises |
-
-### How it works
-
-1. **Read the project materials.** Preserve established facts, character voice, canon, and format; ask only for information the current task actually needs.
-2. **Define what the scene changes.** Identify the characters' immediate goals, obstacles, knowledge, and the action or relationship change at the end.
-3. **Write or revise the actual text.** Deliver a scene when asked for a scene; give a located diagnosis before changing a manuscript when asked for feedback.
-4. **Check causality and interaction.** Make sure actions are motivated, choices communicate what the player is doing, and route state and shared text do not contradict one another.
-5. **Read the player-facing path.** Separate logic checks from reading experience: inspect clarity, pace, character distinction, exposition, and the reason to keep reading.
-6. **Deliver the artifact and summarize changes.** Provide usable text or files and note material changes and what remains unverified.
-
-This is a task-oriented workflow, not a mandatory questionnaire. Keep small requests small, and load only the references or templates that apply.
-
-### Installation and use
-
-From a Codex project directory:
-
-```bash
-mkdir -p .agents/skills
-git clone https://github.com/kantegger/visual-novel-writing.git .agents/skills/visual-novel-writing
-```
-
-For use across projects, install under the user-level skills directory:
-
-```bash
-mkdir -p "$HOME/.agents/skills"
-git clone https://github.com/kantegger/visual-novel-writing.git "$HOME/.agents/skills/visual-novel-writing"
-```
-
-In a Codex environment that discovers this path, invoke it with `$visual-novel-writing`. If the host does not discover it automatically, ask the agent to read `SKILL.md` from the installed folder and follow the relevant references. Other Agent Skills hosts may use different discovery paths and invocation rules; follow their documentation.
-
-Example prompt:
-
-```text
-$visual-novel-writing
-
-Read the outline, character notes, and Chapter 2 in this project.
-Draft only the opening of Chapter 3; do not restructure the whole story.
-Preserve established voices and confirmed plot facts.
-Write a scene that can go directly into the manuscript. Check what each character
-currently knows and whether the scene's causes are clear; remove repeated explanation.
-Save the result as chapter-03-opening.md and summarize the main changes.
-```
-
-You do not need to fill in every template first. Provide the existing materials, the scope of this task, and the expected deliverable.
-
-### What's included
-
-```text
-visual-novel-writing/
-├── SKILL.md                    Main entry point: task routing, writing loop, quality boundaries
-├── agents/openai.yaml          Codex interface metadata
-├── references/                 Structure, scenes, interaction, continuity, revision, and examples
-│   ├── corpus-techniques.md     32 candidate technique cards with conditions and counterexamples
-│   ├── source-index.md          Work index for the technique cards
-│   ├── source-study.md          Method for evaluating source material and extracting techniques
-│   └── ...
-├── assets/templates/            Optional project, scene, choice, and continuity templates
-├── examples/                    Original branching example, state, path, and reading version
-├── scripts/vnmd.py              Optional VNMD text and path utility
-├── tests/                       Unit tests for the VNMD utility
-└── evals/                       Writing-evaluation prompts and trigger boundaries
-```
-
-References are loaded as needed: `structure.md` for concepts and outlines; `scene-craft.md` for scenes and character action; `interaction.md` for choices, state, and convergence; `continuity.md` for knowledge and consistency; `direction.md` for presentation cues; `quality.md` and `revision.md` for reading checks and revision; and `corpus-techniques.md` for bounded examples, not style rules.
-
-### Optional VNMD utility
-
-You can write in ordinary Markdown without running any scripts. If a project needs explicit nodes, conditions, and choices, try this package's **VNMD-0.1** format and `scripts/vnmd.py` to lint structure, trace a choice path, or sample states.
-
-VNMD is a lightweight convention defined by this project, not an industry standard or game engine format. It cannot judge whether a scene is compelling or guarantee compatibility with an engine. The utility uses only the Python 3.10+ standard library and does not access the network or external models. From the repository root:
-
-```bash
-python -m unittest discover -s tests -v
-python scripts/vnmd.py lint examples/umbrella.vnm.md --state examples/umbrella.state.json
-python scripts/vnmd.py trace examples/umbrella.vnm.md --state examples/umbrella.state.json --choices examples/umbrella.path.json
-python scripts/vnmd.py sample examples/umbrella.vnm.md --state examples/umbrella.state.json --runs 200 --seed 17
-```
-
-Passing a tooling check does not establish story quality.
-
-### Source examples, evaluation, and limitations
-
-The technique cards analyze local passages from visual novels and other narrative games. They distinguish what the text shows from what an editor thinks it may do, and include conditions, failure cases, and original transfer exercises. A single passage is not treated as a universal rule.
-
-This repository does not contain or host complete game scripts, images, or audio. The cards retain only necessary short textual references, paraphrases, and commentary. See [`references/source-index.md`](references/source-index.md) for work titles and card IDs. The works and related intellectual property belong to their respective rights holders. Locations refer to particular text versions; a translation or extraction alone cannot establish the original-language writing, in-game presentation, or player experience.
-
-The repository includes 16 writing prompts and 6 trigger boundaries as reusable evaluation inputs, not performance results. This version has not had an independent model comparison, blind evaluation, real-reader study, or in-engine playtest. It therefore does not guarantee compelling output or claim proven improvement across projects. Evaluate it against the actual project, complete player paths, and reader feedback.
-
-### Contributions and license
-
-Issues and pull requests are welcome when they describe a concrete writing failure or reference problem. Include reproducible task context, the expected and actual result, and—when adding a technique—its source, text version, evidence limits, transfer conditions, and counterexample. Do not submit complete game scripts, game assets, unauthorized manuscripts, or identifiable private project material.
-
-Original skill instructions, templates, examples, technique analysis, and utility code in this repository are available under the [MIT License](LICENSE). The license does not relicense third-party text referenced in technique cards or grant rights to any game, character, script, image, audio, or trademark.
 
 ---
 
