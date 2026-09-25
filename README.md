@@ -30,12 +30,12 @@ This skill helps an agent identify the requested deliverable, write the actual p
 
 ### How it works
 
-1. **Read the project materials.** Preserve established facts, character voice, canon, and format; ask only for information the current task actually needs.
-2. **Define what the scene changes.** Identify the characters' immediate goals, obstacles, knowledge, and the action or relationship change at the end.
-3. **Write or revise the actual text.** Deliver a scene when asked for a scene; give a located diagnosis before changing a manuscript when asked for feedback.
-4. **Check causality and interaction.** Make sure actions are motivated, choices communicate what the player is doing, and route state and shared text do not contradict one another.
-5. **Read the player-facing path.** Separate logic checks from reading experience: inspect clarity, pace, character distinction, exposition, and the reason to keep reading.
-6. **Deliver the artifact and summarize changes.** Provide usable text or files and note material changes and what remains unverified.
+1. **Read the project materials**. Preserve established facts, character voice, canon, and format; ask only for information the current task actually needs.
+2. **Define what the scene changes**. Identify the characters' immediate goals, obstacles, knowledge, and the action or relationship change at the end.
+3. **Write or revise the actual text**. Deliver a scene when asked for a scene; give a located diagnosis before changing a manuscript when asked for feedback.
+4. **Check causality and interaction**. Make sure actions are motivated, choices communicate what the player is doing, and route state and shared text do not contradict one another.
+5. **Read the player-facing path**. Separate logic checks from reading experience: inspect clarity, pace, character distinction, exposition, and the reason to keep reading.
+6. **Deliver the artifact and summarize changes**. Provide usable text or files and note material changes and what remains unverified.
 
 This is a task-oriented workflow, not a mandatory questionnaire. Keep small requests small, and load only the references or templates that apply.
 
