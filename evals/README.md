@@ -1,13 +1,13 @@
-# 写作行为评测素材
+# Writing Behavior Evaluation Materials
 
-`prompts.json` 收录 16 个视觉小说写作任务，覆盖构思、场景、修订、选择、路线与证据边界等情境；`triggers.json` 收录 6 个触发边界，用于检查何时应调用或不应调用本 skill。
+prompts.json contains 16 visual-novel writing tasks covering ideation, scenes, revision, choices, routes, and evidence limits. triggers.json contains 6 activation-boundary cases for checking when this skill should or should not be invoked.
 
-这些文件是可复用的评测输入，不是模型成绩报告。它们没有证明本 skill 优于其他提示词，也没有独立模型对照、盲评或真实读者测试。评测输出应单独保存，并注明模型、版本、完整输入、输出、评分者和局限；不要把作者自审写成独立验证。
+These files are reusable evaluation inputs, not model score reports. They do not prove that this skill outperforms other prompts; there has been no independent model comparison, blind review, or real-reader study. Store evaluation outputs separately and record the model, version, full input, output, evaluators, and limitations. Do not present an author's self-review as independent validation.
 
-建议对照同一组任务评估：
+For a useful comparison, run the same task set and evaluate:
 
-- 是否交付用户要求的实际剧本文本，而不止给建议；
-- 是否保留项目已有设定、声音和明确约束；
-- 场景因果、人物知识、路线状态和合流信息是否一致；
-- 读者是否能顺着实际路径读下去，人物是否仍有辨识度；
-- 检查是否改善了体验，还是只让稿件更容易通过规则检查。
+- Did the output deliver the requested manuscript prose, rather than advice alone?
+- Did it preserve established project facts, voice, and explicit constraints?
+- Were scene causality, character knowledge, route state, and convergence information consistent?
+- Could a reader follow the path as presented, and did the characters remain distinct?
+- Did the checks improve the reading experience, or only make the manuscript easier to pass through rule checks?

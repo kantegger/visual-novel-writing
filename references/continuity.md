@@ -1,62 +1,62 @@
-# 连续性与修改依赖
+# Continuity and Revision Dependencies
 
-## 三层资料分开
+## Keep three layers of documentation separate
 
-通用 skill 记录方法；审美档案记录用户明确偏好及适用范围；项目文件记录本作事实与当前稿。临时脑暴为“提案”，未经采用不能进入既定设定。
+The general skill records methods; a taste profile records the user's explicit preferences and where they apply; project files record facts about this work and the current manuscript. Brainstorming remains a proposal until adopted as canon.
 
-可选项目结构：`project.md`（目标、状态与索引）、`canon.md`（事实与来源）、`scenes/`（正文）、`continuity.md`（必要的知识、关系、伏笔与物件）、`revision-log.md`。已有项目不必迁移成这些名字。单场任务可只用一张短卡。
+A project may use files such as project.md (goals, state, and index), canon.md (facts and sources), scenes/ (manuscript), continuity.md (necessary knowledge, relationships, callbacks, and objects), and revision-log.md. Existing projects do not need to be renamed to match. A single-scene task may need only a short card.
 
-## 知识并不等于世界真相
+## Knowledge is not the same as world truth
 
-| 层次 | 要回答的问题 |
+| Layer | Question |
 |---|---|
-| 世界事实 | 实际发生了什么？确定、传闻还是暂定？ |
-| 角色知识 | 谁通过哪个场景、记录或感官获得？ |
-| 角色误信 | 他相信什么，为什么仍未被修正？ |
-| 路径展示 | 这个玩家本次读到了哪些观察？ |
-| 跨周目认知 | 玩家可能知道，但角色不知道的内容有哪些？ |
-| 系统保存 | 当前运行与持久化分别保存哪些状态？ |
+| World fact | What actually happened? Is it confirmed, rumored, or tentative? |
+| Character knowledge | Who learned it, and through which scene, record, or sense? |
+| Character misbelief | What does the character believe, and why has it not been corrected? |
+| Path presentation | Which observations has this player encountered on this path? |
+| Cross-playthrough knowledge | What might the player know that the characters do not? |
+| System state | What does the current run store, and what persists between runs? |
 
-不要用“她看出了他的犹豫”绕过单向摄像头；可以写她猜错、推断、试探，但明确是人物行为，不是全知。
+Do not use “she noticed his hesitation” to bypass a one-way camera. She may guess, infer, or test him, but make that a character action rather than omniscience.
 
-不可靠叙述可以与事实冲突。维护作者知道的差异及未来处理方式，不自动把所有叙述冲突判成 bug，也不以“不可靠”替真正的疏漏开脱。
+Unreliable narration may conflict with fact. Track what the author knows and how the discrepancy will be handled. Do not automatically classify every narrative conflict as a bug, and do not use “unreliable narration” to excuse a genuine omission.
 
-## 两份不可互相代替的账
+## Two ledgers that cannot replace each other
 
-事实账：时间、位置、物品归属/损毁/电量、权限、规则、信息来源、未兑现承诺。
+A fact ledger tracks time, location, object ownership / damage / charge, permissions, rules, information sources, and unfulfilled promises.
 
-关系账：被拒绝或接住的示好、未说明的隐瞒、信任/依赖/羞耻、已经发生的伤害、共同习惯的变化。
+A relationship ledger tracks affection that was accepted or refused, unexplained concealment, trust / dependence / shame, harm that has already occurred, and changes in shared habits.
 
-无需给所有情感打分。用有场景来源的具体描述，比如“他接受她送回的钥匙，但未同意她再次入屋”。
+There is no need to score every feeling. Use specific descriptions tied to scenes, such as “He accepts the key she returns, but does not agree to let her enter again.”
 
-## 因果链是重要修订的单位
+## Causal chains are the unit of major revision
 
-例：删掉一件开门设备，不能只写“改用钥匙”。还要检查钥匙来自何处、谁批准进入、前一场为何需要设备、逃出时留下哪些风险、结尾是否仍感谢那件设备。
+For example, removing a device that opens a door cannot be fixed only by saying “use a key instead.” Also check where the key came from, who authorized entry, why the earlier scene needed the device, what risks remain during the escape, and whether the ending still thanks the device.
 
-先建立依赖清单：被改事实 → 使用该事实的场景 → 受到影响的选项 → 回响/结局 → 音画/资产 → 测试路径。按依赖修，不各章孤立修。
+Make a dependency list first: changed fact → scenes that use it → affected choices → callbacks / endings → audiovisuals / assets → test paths. Revise along those dependencies, not chapter by chapter in isolation.
 
-对象不可逆变化要有记录。杯子碎了不复活，承诺破了不会因为路线汇合自动修复。故事可以有复活或修复，但那是新事件，需要条件和代价，不是漏记。
+Record irreversible changes. A broken cup does not come back intact, and a broken promise is not automatically repaired when routes converge. A story may include resurrection or repair, but that is a new event with its own conditions and cost, not an omission in the ledger.
 
-## 时间与空间
+## Time and space
 
-只把真正产生约束的时刻精确到分钟；不为显示严谨而给每场秒表。移动、等候、交接与同时发生的事件要在可能范围内。旁白所说“已经抵达”和系统所说“获准离开”需要按剧情风险区分。
+Pin events to exact minutes only when that precision constrains the story; do not add timestamps to look rigorous. Keep movement, waiting, handoffs, and simultaneous events plausible. Distinguish “has arrived” in narration from “has permission to leave” in the system according to the story's risks.
 
-剧情时间不等于玩家点击所花的现实时间。除非设计了明确计时玩法，否则不要让自由阅读长短决定故事内赶不赶得上。
+Story time is not the real time a player spends clicking. Unless the game has an explicit timer mechanic, the length of free reading should not determine whether a character arrives in time.
 
-## 汇合检查
+## Convergence checks
 
-为共同场景写进入矩阵：路径、已知、物件、关系、可用能力。共同文本只能引用所有入口均成立的事实；其余用条件片段或先安排现场获取。
+For each shared scene, make an entry matrix of paths, knowledge, objects, relationships, and available abilities. Shared text may rely only on facts true at every entry; handle the rest with conditional snippets or by letting characters learn it on the spot.
 
-在最终输出里抽出至少一条容易遗失前文的路径：拒绝首次接触、途中改变立场、未拿关键物件、先伤害后帮助。它们通常比始终选推荐项更容易暴露漏洞。
+In the final review, pull at least one path that is likely to lose earlier context: declining a first encounter, changing one's mind along the way, missing a key object, or helping after causing harm. These paths tend to reveal gaps more readily than always choosing the recommended option.
 
-## 长篇续写的上下文包
+## Context packets for long-form continuation
 
-只携带当前章需要的：保留约定、相关正文、进入状态、说话差异、未解决关系、近期伏笔和结束目标。摘要要指向具体出处；不要把摘要当原文的永久替代。
+Carry only what the current chapter needs: the preservation brief, relevant manuscript, entry state, speech differences, unresolved relationships, recent callbacks, and exit goal. Summaries should point to specific sources; do not treat them as a permanent substitute for the original prose.
 
-写完后更新“真正发生的变化”，不把废弃试写并入时间线。多个候选版本各自标识，不混为一个顺序。
+After drafting, update what actually changed. Do not add abandoned experiments to the timeline. Label alternate drafts separately rather than treating them as one sequence.
 
-## 文件落盘
+## Writing files
 
-先校验授权目标与当前版本。写回前保留快照或可恢复差异；写后读取文件并检查头尾、章节与关键连接。项目库、云端原件和工作副本不是同一位置，不能把本地副本修改说成外部原件已更新。
+Confirm the authorized target and current version first. Save a snapshot or recoverable diff before writing; after writing, reread the file and check its beginning, ending, sections, and key transitions. A project repository, cloud original, and working copy are different locations; do not claim a local edit changed an external original.
 
-交付全稿时不留正文占位符；若保留未动章节，应真实包含它们，而不是写“其余同原稿”。只修改授权范围，不以维护一致性为理由悄悄删除用户偏好的场景。
+When delivering a full manuscript, leave no prose placeholders. If some chapters remain untouched, include their actual text rather than replacing them with “the rest is unchanged.” Change only what is in scope; do not quietly remove a scene the user likes in the name of consistency.

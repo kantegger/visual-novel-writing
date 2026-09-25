@@ -1,25 +1,25 @@
-# 选择工作卡
+# Choice Work Card
 
-- 选择 ID／场景：
-- 玩家参与：表达／调查方法／推断／资源／后果取舍／其他：
-- 入口条件与已读信息：
-- 前置显示的风险及尚未知部分：
-- 标签向玩家承诺的作用：
+- Choice ID / scene:
+- Player's role: expression / investigative method / inference / resource allocation / consequence trade-off / other:
+- Entry conditions and information already available:
+- Risks surfaced in advance and what remains unknown:
+- What the label promises the player:
 
-| 选项 ID／标签 | 真实动作 | 即时回应 | 改变的事实与关系 | 谁获知 | 后续机会／代价 | 汇合点 |
+| Option ID / label | Actual action | Immediate response | Facts and relationships changed | Who learns what | Later opportunity / cost | Convergence point |
 |---|---|---|---|---|---|---|
 
-## 汇合后仍不同
+## What remains different after convergence
 
-- 不可重置的事实：
-- 必须条件化的台词／独白：
-- 是否需要变量，还是仅本场反馈：
-- 后续来源／回响位置：
+- Facts that cannot be reset:
+- Dialogue or inner monologue that must be conditional:
+- Does this need a variable, or only local feedback?
+- Later source / callback location:
 
-## 反例检查
+## Counterexample check
 
-- 有没有选完后才告知本应能判断的重大风险？
-- 是玩家在推断，还是角色自动完成后告诉玩家？
-- 有没有用善意兑换忠诚，或用路线名覆盖实际行动？
-- 一项选项只是表达时，是否承诺了并不存在的重大分支？
-- 所有选项暂不可用时，是否存在合理的明确后续？
+- Does the player learn a major risk only after choosing, even though it should have been assessable?
+- Is the player making an inference, or does a character solve it automatically and tell them?
+- Does kindness purchase loyalty, or does a route label override what the player actually did?
+- If an option only expresses a stance, does it promise a major branch that does not exist?
+- If every option is temporarily unavailable, is there a clear and reasonable way forward?

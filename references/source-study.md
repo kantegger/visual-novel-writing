@@ -1,13 +1,13 @@
-# 资料阅读与技法提炼
+# Reading Source Material and Extracting Techniques
 
-本 skill 把游戏文本当作具体案例来读，不把单个作品或片段直接升级为普遍规则。需要提炼技法时，按以下顺序工作：
+Treat game text as a case to examine, not as a universal rule. When extracting a technique, work in this order:
 
-1. **确认材料形态**：连续场景、合并转录、数据库、摘要或翻译稿能支持的判断不同。先确认说话人、分段、选项、条件和顺序是否保留。
-2. **记录可观察内容**：只写文本实际呈现的行动、信息、回应、状态变化和选择后果。不要把推测写成源文本事实。
-3. **提出局部解释**：说明某种安排可能怎样影响信息理解、关系、节奏或玩家选择，并把结论限定在材料能支持的范围内。
-4. **写出迁移条件和反例**：说明何时值得尝试、何时会失效或带来相反效果，再用不同题材的新场景检查是否仍成立。
-5. **控制规则等级**：单片段观察先保留为案例；只有经过跨作品比较、原创迁移和反例检查，才考虑成为通用候选。即使如此，也不要写成所有作品都必须采用的模板。
+1. **Identify the form of the material.** A continuous scene, merged transcript, database, synopsis, or translation supports different kinds of judgment. Check whether speakers, segmentation, choices, conditions, and order have been preserved.
+2. **Record what is observable.** Describe only actions, information, responses, state changes, and choice consequences that the text actually presents. Do not turn an inference into a fact about the source.
+3. **Offer a local interpretation.** Explain how an arrangement may affect comprehension, relationships, pacing, or player choice. Keep the claim within what the material can support.
+4. **State transfer conditions and counterexamples.** Explain when the technique may be useful and when it may fail or produce the opposite effect. Then try it in an original scene from a different kind of work.
+5. **Keep the evidence level calibrated.** A single passage remains a case study. Consider a general candidate only after cross-work comparison, original transfer, and counterexample checks. Even then, do not turn it into a template every work must follow.
 
-技法卡提供作品名称、来源编号、局部位置、编辑判断、迁移练习与限制。作品索引见[作品来源索引](source-index.md)。本包不包含游戏脚本、图像或音频；索引和卡片中的定位信息不能替代原作，也不保证适用于其他文本版本。
+Each technique card records the work, source ID, local passage, editorial interpretation, transfer exercise, and limitations. See the [Source Index](source-index.md) for works and IDs. This package does not include game scripts, images, or audio. Locations in the index and cards do not replace the source and may not match other text versions.
 
-原创迁移示范用于展示操作方式，不是读者测试结果。要判断某项规则是否改善了实际作品，应在具体项目中试用，并结合完整路径阅读和独立读者反馈。
+Original transfer examples demonstrate an operation; they are not reader-test results. To determine whether a technique improves an actual work, try it in that project, read the complete player path, and gather feedback from independent readers.

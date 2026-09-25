@@ -1,17 +1,17 @@
-# 技法卡
+# Technique Card
 
-- 技法名称：
-- 来源 ID／文件／版本／语种／哈希／原始分段／位置：
-- 材料形态与完整度：连续场景／分段合并／转录／数据库／摘要；缺少了什么：
-- 可引用的短摘录：
-- 来源实际支持的观察：
-- 编辑解释（不是既定事实）：
-- 要实现的效果：
-- 成立前提：
-- 可执行的操作：
-- 何时失效／反例：
-- 不能从本案例推出的结论：
-- 原创迁移练习：
-- 试读或测试结果：未进行／具体记录：
-- 候选／经局部验证／跨类型验证：
-- 是否适合加入通用 skill，理由：
+- Technique:
+- Source ID / file / version / language / hash / original segment / location:
+- Material form and completeness: continuous scene / merged segments / transcript / database / summary; what is missing:
+- Short excerpt that may be quoted:
+- What the source directly supports:
+- Editorial interpretation (not an established fact):
+- Intended effect:
+- Preconditions:
+- Actionable operation:
+- When it fails / counterexamples:
+- Conclusions this case cannot support:
+- Original transfer exercise:
+- Read-through or test result: not run / specific record:
+- Candidate / locally validated / cross-type validated:
+- Should this enter the general skill? Why or why not?

@@ -1,6 +1,6 @@
 interface:
-  display_name: "视觉小说写作"
-  short_description: "构思、成稿与改稿；维护人物、路线和阅读体验"
-  default_prompt: "使用 $visual-novel-writing，依据当前项目资料完成本次视觉小说任务；先保住作品吸引力，再处理因果与阅读体验。"
+  display_name: "Visual Novel Writing · 视觉小说写作 · ビジュアルノベル執筆"
+  short_description: "Draft and revise VNs; preserve character, route, and reading experience"
+  default_prompt: "Use $visual-novel-writing to complete this visual-novel task from the current project materials. Preserve the work's appeal first, then check causality and reading experience. Follow the requested manuscript language."
 policy:
   allow_implicit_invocation: true

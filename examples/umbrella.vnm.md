@@ -1,94 +1,94 @@
-# 雨停以前
+# Before the Rain Stops
 
-原创工具示例。入口前的说明不显示给玩家；本例不需要悬疑或宏大主题。
+Original tool example. The setup note before the entry does not appear to the player; this scene needs neither a mystery nor a grand theme.
 
 ::scene START
-## 一把倒着撑的伞
+## An Umbrella Turned Inside Out
 
-[CUE: 保留檐下雨声；无音频时保留下面的可读雨景。]
+[CUE: Keep the sound of rain under the eaves; without audio, preserve the readable view of rain below.]
 
-许宁把滴水的伞搁进桶里。
+Xu Ning set the dripping umbrella in the bucket.
 
-**阿禾：** 它今天又朝我倒水了。
+**A-He:** It dumped water on me again today.
 
-**许宁：** 你可以考虑把有洞的一面放在下面。
+**Xu Ning:** Maybe put the side with the hole on the bottom.
 
-**阿禾：** 那一面是我的头。
+**A-He:** That side is my head.
 
-桶里的伞缓缓翻了个面。许宁把手里完好的伞递过去，又看了看阿禾还抓着的伞骨。
+The umbrella in the bucket slowly turned inside out. Xu Ning held out her intact umbrella, then glanced at the ribs A-He was still gripping.
 
 ::choice OFFER
-::option lend | 借她的伞，明天还。
+::option lend | Lend her your umbrella; she can return it tomorrow.
 ::set borrowed = true
-**阿禾：** 明天还你。
+**A-He:** I'll give it back tomorrow.
 
-**许宁：** 明天最好不要也下雨。
+**Xu Ning:** Then let's hope it doesn't rain tomorrow too.
 ::goto RETURN
-::option repair | 先一起看看这根歪掉的伞骨。
+::option repair | Let's look at that bent rib together.
 ::set repaired = true
-**阿禾：** 给它一次解释的机会。
+**A-He:** Give it a chance to explain itself.
 
-**许宁：** 好。由你替它发言。
+**Xu Ning:** All right. You can speak for it.
 ::goto REPAIR
 ::endchoice
 
 ::scene REPAIR
-## 檐下
+## Under the Eaves
 
-阿禾按住伞骨，许宁试着拨动卡扣。伞面忽然弹起来，两个人一起往后躲，谁也没先松手。
+A-He held the rib steady while Xu Ning tried to move the clasp. The canopy sprang open. They both flinched backward, neither letting go first.
 
-**许宁：** 它的解释挺有力度。
+**Xu Ning:** That was a forceful explanation.
 
-她从口袋拿出一张便条垫在卡扣下。阿禾看见上面写着“周五别忘了拿书”。
+She took a note from her pocket and wedged it under the clasp. A-He saw what it said: “Friday: remember to pick up the book.”
 
 ::choice NOTE
-::option ask | 问问是什么书。
+::option ask | Ask what the book is.
 ::set knows_book = true
-**许宁：** 园艺。因为我把仙人掌养得开始同情我了。
+**Xu Ning:** Gardening. My cactus has started to feel sorry for me.
 
-**阿禾：** 它跟你说的？
+**A-He:** Did it tell you that?
 
-**许宁：** 它倒向了隔壁阳台。
-::option wait | 替她把另一边伞骨稳住。
-**阿禾：** 这一边好了。
+**Xu Ning:** It leaned over toward the next balcony.
+::option wait | Hold the other umbrella rib steady for her.
+**A-He:** This side is set.
 
-**许宁：** 别放。让我享受两秒成功的感觉。
+**Xu Ning:** Don't let go. Let me enjoy feeling successful for two seconds.
 ::endchoice
 
-卡扣终于合上。许宁把折湿的便条塞回口袋。
+The clasp finally caught. Xu Ning put the damp, folded note back in her pocket.
 
 ::goto RETURN
 
 ::scene RETURN
-## 门口
+## At the Door
 
 ::if knows_book
-**阿禾：** 周五拿书的时候，我跟你去。
+**A-He:** When you pick up the book on Friday, I'll come with you.
 
-**许宁：** 你要对仙人掌发表意见？
+**Xu Ning:** You want to give the cactus your opinion?
 
-**阿禾：** 我想见见隔壁阳台。
+**A-He:** I want to see the next balcony.
 ::elif repaired
-**阿禾：** 这根伞骨比刚才直。
+**A-He:** This rib is straighter than it was.
 
-**许宁：** 你夸得真谨慎。
+**Xu Ning:** What a cautious compliment.
 ::else
-许宁把伞柄转到阿禾方便接住的方向。
+Xu Ning turned the handle so A-He could take it easily.
 
-**许宁：** 别忘在公交车上。
+**Xu Ning:** Don't leave it on the bus.
 
-**阿禾：** 我会跟它聊一路，让它记住我。
+**A-He:** I'll talk to it the whole way so it remembers me.
 ::endif
 
 ::choice WALK
-::option together | 等她锁好门，一起走到路口。
-阿禾没有先下台阶。许宁锁了两次门，第二次只是确认。
+::option together | Wait while she locks up, then walk together to the corner.
+A-He did not step down first. Xu Ning locked the door twice; the second time was only to check.
 
-走到檐边，她把肩膀往阿禾那边挪了一点。
+At the edge of the eaves, she shifted one shoulder a little closer to A-He.
 ::ending TOGETHER
-::option ahead | 先走一步，回头挥手。
-阿禾在雨里试着转了半圈。伞没有再倒水。
+::option ahead | Walk ahead, then turn back and wave.
+A-He tried turning once in the rain. The umbrella did not dump water again.
 
-回头时，许宁还站在檐下。他向她挥挥手，这次空着的手没有抓住任何快散开的东西。
+When he looked back, Xu Ning was still under the eaves. She waved with her empty hand; this time it was not holding on to anything about to come apart.
 ::ending AHEAD
 ::endchoice

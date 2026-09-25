@@ -1,49 +1,49 @@
-# 双重验收与证据等级
+# Two-Part Acceptance and Evidence Levels
 
-## 不生成一个万能质量分
+## Do not invent a universal quality score
 
-结构成立与阅读成立分开。技术分数高不能抵消角色乏味；喜欢一场也不能证明全稿无漏洞。反馈必须指向具体场景与读者经历。
+Structural validity and the reading experience are separate. A high technical score cannot compensate for dull characters; enjoying one scene does not prove a whole manuscript is free of gaps. Feedback must point to a specific scene and reader experience.
 
-## 作者验收
+## Author review
 
-确认本次改动是否符合授权；事实、提案和未知是否区分；角色知识与路线入口是否有来源；物件和情绪是否延续；关键选择的承诺是否兑现；高潮条件是否已建立；音画是否超出资产或引擎实际能力。
+Check whether the changes match the authorization; whether facts, proposals, and unknowns are distinguished; whether character knowledge and route entries have sources; whether objects and emotions carry forward; whether important choices fulfill their promises; whether climax conditions were established; and whether audiovisuals exceed the assets or engine's actual capabilities.
 
-记录硬错误、风险和偏好，避免把“我更喜欢另一种写法”列成 bug。寓言、梦、荒诞、不可靠叙述都有自己的契约，不能一律按现实主义消毒。
+Record errors, risks, and preferences separately. Do not file “I prefer another style” as a bug. Fable, dreams, absurdity, and unreliable narration each have their own contract; do not sanitize every work into realism.
 
-## 玩家验收
+## Player-path review
 
-只读一条路径的正文，不查看未选分支和作者附录。逐场记录：此刻想知道/得到什么；喜欢和不喜欢谁；哪一句开始跳读；哪里信息不足、哪里解释过多；结尾回响是否被感受到。
+Read the prose on one path without looking at unchosen branches or author appendices. For each scene, note: what the player wants to know or get now; whom they like or dislike; where they start skimming; what is missing or overexplained; and whether a callback at the ending registers.
 
-对照保留约定：原稿的吸引力是否保住？新稿只是更容易解释，还是更有阅读牵引？普通日常是否还能成立，而不是所有场景都在准备高潮？
+Compare the reading with the preservation brief: did the original appeal survive? Is the new draft merely easier to explain, or more compelling to read? Can ordinary moments still stand on their own, or is every scene now only preparing a climax?
 
-## 路径样本如何选
+## Choosing path samples
 
-至少选与本次修改相关的正常路径、边界状态、低信息入口和转向路径。大型作品按风险增补，不要求每次短段落编辑穷举全剧。
+At minimum, select a normal path relevant to the revision, a boundary state, a low-information entry, and a path that changes direction. Scale up for larger works and higher risks; a short passage edit does not need exhaustive traversal of the entire story.
 
-共享段落只在必要的不同进入状态中复核；不要把全部随机样本都交给人反复阅读。随机覆盖不足时用定向场景补，而不是增加数量来掩盖漏项。
+Recheck a shared passage only for the entry states that matter. Do not make people reread every random sample. If random sampling gives weak coverage, add targeted scenes instead of increasing sample counts to conceal gaps.
 
-## 验证等级必须写清
+## State the evidence level
 
-| 等级 | 能声称什么 | 不能声称什么 |
+| Level | What you may claim | What you may not claim |
 |---|---|---|
-| 人工源核对 | 已核对列明的段落/设定 | 已通读未读取部分 |
-| 静态结构检查 | 特定格式的标记、变量、引用检查结果 | 散文因果与情绪正确 |
-| 状态/路径执行 | 已运行的样本、断言与覆盖 | 未遍历的组合一定安全 |
-| 单路径编辑试读 | 编辑对所读路径的具体判断 | 独立读者认可、普遍更好看 |
-| 模型对照测试 | 已运行模型/版本/输入下的差异 | 人类盲测结果 |
-| 人类盲测 | 实际样本中的偏好与反馈 | 无样本限制的普遍结论 |
-| 引擎实测 | 已运行平台上的分页、声音、存读档等结果 | 未测设备同样正确 |
+| Manual source check | The listed passages / facts were checked | Unread sections were read in full |
+| Static structure check | The results of checking markers, variables, or references in a specific format | Prose causality and emotion are correct |
+| State / path execution | The samples, assertions, and coverage actually run | Untested combinations are safe |
+| Single-path editorial read | Specific editorial judgments about the path read | Independent readers approve or the whole work is better |
+| Model comparison | Differences for the models, versions, and inputs actually run | Results from human blind tests |
+| Human blind test | Preferences and feedback from the actual sample | A universal conclusion beyond that sample |
+| Engine test | Pagination, audio, saves, and other results on the platform actually run | Untested devices behave the same way |
 
-每份报告写输入版本/哈希、命令或步骤、样本、结果、未测范围。不要继承原稿中的“测试通过”字样作为本次证据。附录声称运行过测试，而没有日志时只能作为文档自述。
+For every report, record the input version or hash, command or procedure, sample, result, and untested scope. Do not reuse a manuscript's old “tests passed” statement as evidence for this revision. If an appendix says tests were run but contains no log, treat that as a claim in the document only.
 
-## 技法或 skill 的对照
+## Comparing a technique or skill
 
-同一任务、同一资料、相近输出长度、相同模型配置；新会话分别使用/不使用 skill，避免把上一版结果泄漏给下一版。对输出匿名排序，由读者先自由评价，再按人物、阅读牵引、因果、媒介适配与保真逐项说明。
+Use the same task, source material, approximate output length, and model settings. Start separate sessions with and without the skill so one result does not leak into the other. Anonymize and order the outputs; let readers give an open reaction first, then assess character, reading pull, causality, medium fit, and fidelity.
 
-没有独立模型/评委可运行时，保留测试题与待运行记录，不把自写示范说成实验胜利。`evals/prompts.json` 是测试输入，`tests/` 是工具单元测试，两者不是同一种证据。
+If independent models or evaluators are unavailable, keep the test prompts and mark the comparison as pending. Do not describe a self-written demonstration as an experimental win. The prompts in evals/prompts.json are evaluation inputs; tests/ contains utility unit tests. They are not the same kind of evidence.
 
-## 典型反事实检查
+## Useful counterfactual checks
 
-把路线名字换掉，正文对行为的评价还成立吗？去掉高潮音乐，关键行动仍有原因吗？把说话人名字遮住，角色仍有差异吗？删除关于“自由/责任/成长”的结论句，动作仍可理解吗？如果不能，优先补行动而不是增加结论。
+Would the prose still judge the action the same way if you changed the route name? Does a key action still have a cause if you remove the climax music? Are the characters distinguishable if you hide their names? Does the action remain understandable if you remove the line that concludes it was about “freedom,” “responsibility,” or “growth”? If not, improve the action before adding another conclusion.
 
-这些都是诊断方法，不是普遍删词规则。作品可以需要主题宣言，也可以有合唱式角色声音；应由阅读契约决定。
+These are diagnostic methods, not universal rules for deleting words. A work may need a statement of theme or a chorus-like shared voice; the reading contract should decide.

@@ -1,123 +1,123 @@
-# 跨类型微场景：避免把一种好写法变成唯一写法
+# Cross-Type Micro-Scenes: Avoid Turning One Good Technique into the Only Technique
 
-以下均为本包原创示范，尚未经过读者盲测。它们用来说明写作选择，不能当作所有新作的语气模板。
+The scenes below are original examples from this package and have not been blind-tested with readers. They illustrate writing choices; they are not tone templates for every new work.
 
-## 1. 日常喜剧：不增加大秘密也可以有动作
+## 1. Everyday comedy: action without a major secret
 
-**场景：** 两名室友给歪掉的书架找平。只有一张背景、两个人。
+**Situation:** Two roommates try to level a crooked bookshelf. One background, two characters.
 
-阿禾把说明书折了两次，垫在左边桌脚下。
+A-He folded the instruction sheet twice and wedged it under the left foot of the table.
 
-许宁：“那不是书架的脚。”
+“That isn’t the bookshelf’s foot,” Xu Ning said.
 
-“我知道。桌子也歪。”
+“I know. The table is crooked too.”
 
-许宁把水平尺从书架上拿下来。绿色的小气泡端端正正待在中央。
+Xu Ning took the level off the shelf. The little green bubble sat squarely in the middle.
 
-“你看，书架已经平了。”
+“See? The shelf is level.”
 
-阿禾扶住最上层缓缓滑来的花盆。
+A-He steadied a flowerpot slowly sliding off the top shelf.
 
-两个人看了水平尺一会儿。
+They looked at the level for a moment.
 
-“它可能比较乐观。”阿禾说。
+“It might be an optimist,” A-He said.
 
-许宁没接话。她把尺翻过来，底下贴着一片透明胶，气泡是画在胶上的。
+Xu Ning did not answer. She turned it over. A strip of clear tape was stuck underneath, with the bubble drawn on it.
 
-“你什么时候贴的？”
+“When did you do that?”
 
-“我昨天想快点结束。”
+“Yesterday. I wanted to finish faster.”
 
-“那今天呢？”
+“And today?”
 
-阿禾把花盆抱进怀里，腾出一只手，重新展开皱掉的说明书。
+A-He hugged the flowerpot and used one free hand to unfold the wrinkled instructions.
 
-**可迁移点：** 两个人对“完成”的不同标准，通过共同事务、笑点与动作显现。失效风险：用太多机智台词挤掉动作，或突然把假水平尺解释成人生哲学。
+**Transferable move:** Their different standards for “finished” emerge through a shared task, a joke, and action. Failure risk: too many clever lines crowd out the physical business, or the fake level is suddenly explained as a philosophy of life.
 
-## 2. 恋爱：有时应该直接说
+## 2. Romance: sometimes say it directly
 
-**前提：** 分别前的最后一晚，主角已经连续几次用“还少一样东西”延长对方停留。此处不再继续藏。
+**Setup:** On the last night before a separation, the protagonist has repeatedly extended the other person's visit with “we're still missing one thing.” Here, he stops hiding behind it.
 
-“充电器。”他又说。
+“The charger,” he said again.
 
-林夏把那条线从包的侧袋抽出来，摆在鞋柜上。
+Lin Xia pulled the cable from the side pocket of her bag and put it on the shoe cabinet.
 
-“还有什么？”
+“Anything else?”
 
-门外的灯熄了。两个人都没有跺脚叫它亮起来。
+The light outside went out. Neither of them stomped to make it come back.
 
-他看着充电线，准备说插头。
+He looked at the cable, ready to say the plug.
 
-林夏把门推开一点。
+Lin Xia opened the door a little.
 
-“别走。”
+“Don't go.”
 
-她的手停在门上，没有回头。
+Her hand stayed on the door. She did not turn around.
 
-“今晚，还是以后？”
+“Tonight, or after tonight?”
 
-他第一次没有挑比较容易回答的那个。
+For the first time, he did not choose the easier question to answer.
 
-“以后我还不知道。今晚是。”
+“I don't know about after. Tonight, yes.”
 
-林夏把门关上，仍站着。
+Lin Xia closed the door and stayed where she was.
 
-**可迁移点：** 前置的回避使直说有重量。结尾没有用一句话解决整段关系。失效风险：没有前置仍想靠“别走”自动催泪；或为了显得成熟让两人马上开一场完美的关系沟通会议。
+**Transferable move:** Earlier avoidance gives the direct request its weight. The ending does not resolve the whole relationship in one line. Failure risk: expecting “Don't go” to move readers without setup, or making the two characters hold a flawless relationship-communication meeting just to sound mature.
 
-## 3. 恐怖：作者有边界，不等于玩家立刻听完整说明
+## 3. Horror: the author needs rules, but the player need not hear the full explanation yet
 
-**前提：** 用户要心理恐怖，不要求公平谜题。早已建立门铃损坏，只有敲门。
+**Setup:** The user wants psychological horror, not a fair-play puzzle. It is already established that the doorbell is broken; visitors can only knock.
 
-第三次敲门时，姐姐把电视关了。
+At the third knock, my sister turned off the television.
 
-屋里剩下冰箱的声音。
+The refrigerator was the only sound left in the room.
 
-“谁？”
+“Who is it?”
 
-门外的人也把电视关了。
+The person outside turned off the television too.
 
-我听得很清楚。先是主持人的半句笑声，然后“嗒”。
+I heard it clearly. First the host's half-finished laugh, then a click.
 
-姐姐伸手盖住我的嘴。
+My sister covered my mouth with her hand.
 
-她没有问第二遍。
+She did not ask a second time.
 
-【演出意图：第二次关电视声来自门外，提供同等文字说明；不靠突然提高音量。】
+[Presentation intent: The second television shutting off happens outside and has an equivalent textual cue; do not rely on a sudden volume spike.]
 
-**可迁移点：** 已知的室内动作在错误位置重复，制造空间与因果不安。作者应维护后续使用的边界，但当前不必解释它是哪种怪物。失效风险：为“规则清晰”让姐姐立刻说出整套鬼怪机制；或后文随意改变已建立限制。
+**Transferable move:** A familiar indoor action repeats in the wrong place, creating unease about space and cause. The author should keep later rules consistent, but does not need to explain what kind of monster it is yet. Failure risk: the sister immediately explains the whole supernatural mechanism in the name of “clear rules,” or later scenes casually change a limit already established.
 
-## 4. 强烈戏剧：不把克制当唯一正确语气
+## 4. Intense drama: restraint is not the only correct voice
 
-**前提：** 一名性格冲动的歌手发现搭档擅自取消了她的演出。没有死亡或宏大阴谋。
+**Setup:** An impulsive singer learns that her partner cancelled her performance without asking. There is no death or grand conspiracy.
 
-“你替我决定？”
+“You decided for me?”
 
-她把那张已经盖章的取消单举到他脸前。他后退一步，碰倒了装麦克风的空架子。
+She held the stamped cancellation form up to his face. He stepped back and knocked over an empty microphone stand.
 
-“医生说——”
+“The doctor said—”
 
-“那就让医生告诉我！”
+“Then let the doctor tell me!”
 
-“我告诉过你。”
+“I did tell you.”
 
-“你告诉我的是别忘了带围巾！”
+“You told me not to forget my scarf!”
 
-纸在她手里抖，边缘抵着他的下巴。她忽然把它撕了，撕到第二下才想起，撕掉这张并不会让演出回来。
+The paper shook in her hand, its edge pressed against his chin. She tore it. On the second rip, she remembered that tearing it would not bring the performance back.
 
-他蹲下去捡架子。
+He crouched to pick up the stand.
 
-“别捡。”
+“Don't.”
 
-他停住。
+He stopped.
 
-她坐到地上，把两片纸并在膝盖上。
+She sat on the floor and put the two pieces of paper together on her knees.
 
-**可迁移点：** 人物可以喊、做无用动作、暂时没有正确结论。自主性通过冲突体现，不需要全员理性表述。失效风险：补一段旁白解释“她并不是拒绝关心，只是……”将歧义立即清空。
+**Transferable move:** Characters can shout, do something useless, and reach no correct conclusion yet. Agency appears through conflict; not everyone needs to speak with perfect reason. Failure risk: adding narration that immediately explains “she wasn't rejecting his concern, she was just...” and clears all ambiguity.
 
-## 5. 长段独白：长度不是问题本身
+## 5. Long monologue: length is not the problem by itself
 
-**前提：** 线性阅读，使用适合段落的文本布局。人物带着幽默看一间即将搬空的教室。
+**Setup:** Linear reading in a layout suited to paragraphs. The character uses humor while looking at a classroom about to be emptied.
 
-毕业那天，我才知道教室比记忆里小。后排走到讲台只要十二步，过去每次被老师叫上去却像要穿过一个完整的冬天。墙上的钟终于准了，不是有人修好了它，是我们把它拿下来，电池卸掉，指针拨到拍合照的那一刻。班长说这样比较有纪念意义。我觉得主要是因为谁也不肯承认，这块慢了四年的钟，最后一天还值得买一节新电池。
+On graduation day, I learned that the classroom was smaller than I remembered. It took twelve steps to get from the back row to the lectern. Whenever the teacher called me up, it used to feel like crossing an entire winter. The clock on the wall was finally right—not because someone fixed it, but because we took it down, removed the battery, and turned the hands to the moment of the class photo. The class president said it would make a better keepsake. I think it was mostly because no one wanted to admit that a clock four years slow was worth a new battery on its last day.
 
-**可迁移点：** 段落靠观察的推进、尺度反差和人物判断维持声音。失效风险：为了“点击节奏”每几个字拆一屏，破坏完整语势；或用同样语气覆盖所有人物。
+**Transferable move:** The paragraph sustains its voice through developing observations, a shift in scale, and the character's judgment. Failure risk: splitting every few words across screens for “click rhythm,” breaking the sentence's movement, or letting every character use the same voice.

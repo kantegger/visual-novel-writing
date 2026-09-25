@@ -1,58 +1,60 @@
-# 交互、路线与选择契约
+# Interaction, Routes, and Choice Contracts
 
-## 先确定谁在决定什么
+## Decide who controls each decision
 
-区分：玩家表达一种态度；玩家选择调查方法；角色自行推理；玩家依据证据推断；玩家分配资源；玩家决定接受什么后果。每场可以混用，但不能把自动独白中的聪明算作玩家完成的解谜。
+Distinguish among: the player expressing an attitude; the player choosing an investigative method; a character reasoning independently; the player inferring from evidence; the player allocating resources; and the player choosing which consequence to accept. A scene may mix these, but a protagonist's automatic inner monologue does not count as the player solving a puzzle.
 
-选择卡记录：路径入口、此刻已知、可预期风险、选项标签、实际行动、即时反馈、后续状态、汇合点及不能抹除的事实。使用 `assets/templates/choice.md`，简单表情选择无需填满全部字段。
+A choice card records the entry path, what is known now, foreseeable risks, option labels, actual actions, immediate feedback, later state, convergence point, and facts that cannot be erased. Use assets/templates/choice.md as needed; a simple expression choice does not require every field.
 
-## 好的标签不是答案预告
+## Good labels do not predict the answer
 
-标签应让玩家理解自己在做什么，而不承诺不可能保证的结果。“请求她留下”不同于“让她原谅你”。对方有拒绝、误会或有条件答应的空间。
+A label should tell the player what they are doing without promising a result it cannot guarantee. “Ask her to stay” is different from “make her forgive you.” The other character must still be able to refuse, misunderstand, or agree conditionally.
 
-重大后果前给出合理依据，不一定剧透结局。确需惊讶、恶意系统或不可靠菜单时，提前建立相应阅读契约，之后给出能够回看的原因，不把任意处罚包装成深刻。
+Give reasonable grounds before major consequences without necessarily spoiling the ending. If the game intentionally uses surprise, a hostile system, or an unreliable menu, establish that reading contract first and later provide a reason the player can look back to. Do not package arbitrary punishment as depth.
 
-同一结局并不意味着假选择。语气、合作方式、谁受伤、谁知道、留下了什么承诺，都可以构成有效区别。微选择也可以仅提供表达和即时回应，只要它没有暗示要改变整条路线。
+Choices can matter even when they lead to the same ending. Tone, collaboration, who gets hurt, who learns something, and which promises remain can all distinguish them. A small choice may only offer expression and an immediate response, provided it does not imply a route-wide change that is not there.
 
-## 分支汇合的义务
+## Responsibilities when branches converge
 
-汇合只合并位置，不抹除经历。进入共同场景前列出仍不同的事实与关系；用条件文本、不同动作或不同可用方案承接。
+Convergence combines locations; it does not erase what happened. Before a shared scene, list facts and relationship changes that still differ. Carry them forward with conditional text, different actions, or different available approaches.
 
-**NPC 重访回响（可选）**：主角回到仍可访问的 NPC 身边时，判断本次对话是否需要先承认此前事件留下的结果。需要时，可以先给一条简短的条件回应，再继续两条路径都成立的共同事务。先确认旧事务是否仍存在：如果目标已完成或失效，重新判断当前话题、服务和人物行动，不要默认跳回旧入口。若事件改变了角色是否在场、关系、服务可用性或风险，就用条件文本、不同动作或不同可用方案承接；不能用统一台词抹平状态。重访不必次次复述旧事，感谢也不等于宽恕。案例与边界见[CT-23](corpus-techniques.md)。
+**Optional NPC revisit callbacks:** When the protagonist returns to an NPC who is still available, decide whether the conversation needs to acknowledge a result of an earlier event. If it does, a brief conditional response can come first, followed by shared business that works on both paths. First check whether the earlier matter is still active. If its goal is already complete or no longer relevant, reassess the current topic, service, and character action; do not automatically jump back to the old entry point.
 
-早期立场、实际行动、别人对主角的看法要分开。玩家可以改主意，人物也可以误判他，但旁白不能为了“犹豫线”标签否认已经发生的行动。
+If an event changed whether a character is present, the relationship, service availability, or risk, carry that state with conditional text, different actions, or different available approaches. Do not flatten it with a universal line. A revisit need not repeat the old event every time, and gratitude is not forgiveness. See [CT-23](corpus-techniques.md) for an example and its limits.
 
-不要为每次小选择建永久变量。只有后续会读取，或有必要保留明确承诺时再记录；其余保留于场景退出摘要。
+Keep the protagonist's earlier stance, actual action, and other characters' view of them separate. Players can change their minds, and characters can misjudge them, but narration must not deny an action that already happened just to validate a “hesitant route” label.
 
-**可选的短分支合流**：如果选项只改变当前理由、表达或态度，且不会改变后续必须读取的状态，可以先让对话对象针对不同选择各自回应，再回到不预设任一选项的共同话题或行动。共同段落只使用所有入口都已建立的信息。若路线间的知识、事实、关系、承诺、物品或风险不同，继续用条件文本、不同动作/选项承接，或让缺少信息的一方先在现场取得它。案例与边界见[CT-22](corpus-techniques.md)。
+Do not create a permanent variable for every small choice. Record it only if later scenes read it or if an explicit promise needs to persist; otherwise preserve it in the scene-exit summary.
 
-## 路线与结局
+**Optional short-branch convergence:** If an option changes only a local reason, expression, or attitude—and does not change state that later scenes must read—let the other character respond to each choice, then return to shared discussion or action that assumes none of the options. Shared text may use only information established at every entry. If knowledge, facts, relationships, promises, objects, or risks differ across branches, continue with conditional text, distinct actions or choices, or let the less-informed character learn the missing information in the scene. See [CT-22](corpus-techniques.md) for an example and its limits.
 
-每条主要路线要有自己的欲望链、压力、关系变化和结束体验，而不是“正确/将就/错误”三个评分。
+## Routes and endings
 
-作品可以有明确价值观，甚至明确最优策略。不必让所有路线道德等价；需要避免偷改事实来证明某个结论。真结局揭示更多信息时，不要顺手宣布其他路线的感情毫无价值。
+Each major route needs its own chain of desires, pressure, relationship changes, and ending experience; do not reduce routes to “right,” “settling,” and “wrong” scores.
 
-坏结局可以是悲剧、恐惧、认知补充、失败实验或角色结果；不是必需。检查重读负担、回到节点的方式，以及玩家是否得到和付出相称的体验。不要用焦虑、服药、残障或表达边界自动决定善恶分数。
+A work may have explicit values or even a clearly best strategy. Routes do not need moral equivalence; avoid altering facts to prove a conclusion. If a true ending reveals more information, do not use that to declare that the feelings in all other routes were worthless.
 
-## 公平推断的最小结构
+A bad ending may be tragic, frightening, revelatory, a failed experiment, or a character outcome; it is optional. Check replay burden, how the player returns to a decision point, and whether the experience gained feels proportionate to what it costs. Do not use anxiety, medication, disability, or boundary-setting as automatic moral scores.
 
-1. 在决定前展示必要观察，不把关键证据放进选中后的独白。
-2. 区分原始观察与主角解释；错误解释应有可修正空间。
-3. 让玩家进行比较、提出假设或选出推断，且反馈对应其判断。
-4. 检查另一条路径缺少观察时，是否仍被要求作同样推断。
+## Minimal structure for fair inference
 
-声音或颜色线索提供等价的可读观察，如“同一金属敲击重复出现”，而不是替玩家写“这说明它是录音”。不要只通过听力敏感度判定是否能进入正确路线。
+1. Show necessary observations before the decision; do not hide key evidence in post-choice monologue.
+2. Distinguish raw observation from the protagonist's interpretation; leave room to correct a mistaken reading.
+3. Let the player compare evidence, propose a hypothesis, or choose an inference, and make the feedback respond to that judgment.
+4. Check whether a player on another path is still expected to make the same inference without the observations.
 
-## 多周目按需加载
+Give sound or color clues equivalent readable observations, such as “the same metallic tap repeats,” rather than spelling out “that means it is a recording.” Do not make hearing sensitivity the only way to enter the correct route.
 
-分别定义：世界循环复位了什么，角色记住什么，玩家可能记住什么，系统持久化了什么。新周目默认不继承未声明状态。
+## Load multiple-playthrough rules only when needed
 
-路线 A 的玩家知识进入路线 B 时，需要明确它只是玩家元知识，还是角色也已获得。前者可以用于紧张和戏剧反讽，不必强行变成可说出的选项。
+Define separately what resets in the world loop, what the character remembers, what the player may remember, and what the system persists. A new playthrough inherits no undeclared state by default.
 
-跨存档标记要定义首次、重玩、跳读、清档、解锁失效和回看行为。写作层只提出需求；具体持久化实现交给所用引擎并验证。
+When player knowledge from Route A enters Route B, decide whether it is only the player's meta-knowledge or whether the character has acquired it too. The former can create tension or dramatic irony without becoming a dialogue option.
 
-## 代价不等于兑换
+Define how cross-save flags behave on first play, replay, skip, save deletion, unlock loss, and review. The writing can specify requirements; the chosen engine must implement and verify persistence.
 
-救助某人后，可能得到线索，也可能只改变他的处境。他不欠主角忠诚。拒绝帮助不自动触发惨死来惩罚玩家。资源不足时，清楚列出实际缺口，但不要把每段人际交往都设计成交易。
+## A cost is not a trade
 
-检查“无绝对正解”是否只是故意让所有选项都糟糕。有时合理选择确实明显，戏剧可以来自执行它的难度而不是道德模糊。
+Helping someone may reveal a clue, or it may only improve their situation. They do not owe the protagonist loyalty. Refusing help does not automatically trigger a death to punish the player. If resources are insufficient, state the actual shortfall, but do not turn every human interaction into a transaction.
+
+Check whether “there is no perfect answer” merely means every option was made intentionally bad. Sometimes one choice really is more reasonable; drama can come from how hard it is to carry out rather than from forced moral ambiguity.

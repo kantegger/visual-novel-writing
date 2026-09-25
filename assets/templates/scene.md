@@ -1,25 +1,25 @@
-# 场景工作卡
+# Scene Work Card
 
-- ID／位置：
-- 正文语言、视角、进入路径：
-- 已读前文／尚缺内容：
-- 此场要给玩家的体验：
-- 人物此刻想做什么；为什么是现在：
-- 具体共同活动或阻力：
-- 人物策略与语言差异：
-- 玩家此刻知道什么，不能知道什么：
-- 实际动作链／可停留的日常细节：
-- 退出时改变与未解决的事：
-- 必要音画、资产及无声替代：
-- 必须保留的原文特色：
+- ID / location:
+- Manuscript language, point of view, entry path:
+- Prior scenes read / missing context:
+- Experience this scene should offer the player:
+- What each character wants now, and why now:
+- Concrete shared activity or obstacle:
+- Character strategies and differences in speech:
+- What the player knows now / cannot know yet:
+- Actual action chain / daily details worth lingering on:
+- What changes at the exit / what remains unresolved:
+- Necessary audiovisuals, assets, and silent fallback:
+- Manuscript qualities that must be preserved:
 
-## 正文
+## Scene
 
-在这里写实际场景。交付时不要保留说明句或未写占位符。
+Write the actual scene here. Remove instructional notes and placeholders from the delivered version.
 
-## 简短验收
+## Brief acceptance check
 
-- 因果／知识／物件／关系：
-- 阅读中有趣或失效的具体位置：
-- 是否存在审稿说明泄漏、全员同声或过度解释：
-- 本次真正更新的项目记录：
+- Causality / knowledge / objects / relationships:
+- Specific passages that are enjoyable or fail:
+- Reviewer-facing explanation, interchangeable voices, or overexplaining:
+- Project records actually updated for this task:

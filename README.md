@@ -8,7 +8,7 @@
 
 **An Agent Skill for writing visual novels and narrative games**. Use it for story development, scene drafting, continuation, revision, route and choice design, continuity checks, and technique analysis. It supports both linear and branching stories. Current version: **0.33.0**.
 
-The skill instructions are currently written in Chinese. They direct the agent to follow the language requested for the manuscript and the language of the project materials.
+The skill instructions are written in English. They direct the agent to use the user’s language for discussion and keep the manuscript in its current or explicitly requested language.
 
 ### Why this skill
 
@@ -38,6 +38,10 @@ This skill helps an agent identify the requested deliverable, write the actual p
 6. **Deliver the artifact and summarize changes**. Provide usable text or files and note material changes and what remains unverified.
 
 This is a task-oriented workflow, not a mandatory questionnaire. Keep small requests small, and load only the references or templates that apply.
+
+### Documentation language
+
+This README is for people and is provided in English, Simplified Chinese, and Japanese. The agent-facing skill instructions, references, templates, and worked examples are maintained in English so agents have one consistent instruction set. Evaluation prompts remain in their source languages to test language-specific behavior; generated manuscript language follows the user’s request. The detailed Chinese corpus notes are archived in [references/archive/corpus-techniques.zh-CN.md](references/archive/corpus-techniques.zh-CN.md); the active technique cards are summarized in English.
 
 ### Installation and use
 
@@ -78,8 +82,9 @@ You do not need to fill in every template first. Provide the existing materials,
 visual-novel-writing/
 ├── SKILL.md                    Main entry point: task routing, writing loop, quality boundaries
 ├── agents/openai.yaml          Codex interface metadata
-├── references/                 Structure, scenes, interaction, continuity, revision, and examples
+├── references/                 English, task-specific guides loaded as needed
 │   ├── corpus-techniques.md     32 candidate technique cards with conditions and counterexamples
+│   ├── archive/corpus-techniques.zh-CN.md  Detailed Chinese working notes (archive only)
 │   ├── source-index.md          Work index for the technique cards
 │   ├── source-study.md          Method for evaluating source material and extracting techniques
 │   └── ...
@@ -128,7 +133,7 @@ Original skill instructions, templates, examples, technique analysis, and utilit
 
 **一个帮助写作 agent 完成 VN 实际文本工作的 skill**。适用于构思、场景写作、续写、修订、路线与选项设计、连续性检查，以及从作品案例提炼技法。线性作品和多路线作品都可以使用。
 
-技能主体以中文编写，但会按照项目资料和用户要求保留或切换剧本文字语言。
+Skill 正文以英文编写。它要求 agent 使用用户的交流语言，并让剧本保持当前语言或遵循用户明确指定的语言。
 
 ### 为什么做这个 skill
 
@@ -158,6 +163,10 @@ Original skill instructions, templates, examples, technique analysis, and utilit
 6. **交付并说明变化**。给出可直接使用的正文或文件，并简述重要改动及尚未验证的部分。
 
 这是任务导向的流程，不是每次都要逐项填写的问卷。小任务保持小范围；只有涉及的部分才读取参考资料或模板。
+
+### 文档语言
+
+本 README 面向人类读者，提供英文、简体中文和日文版本。供 agent 执行和引用的 skill 指令、参考资料、模板与示例统一以英文维护，避免同一套指令出现多种语言版本。评测输入保留各自的原始语言，用于检查对应语言下的行为；实际剧本语言仍遵循用户要求。技法卡的中文详细工作稿保存在 [references/archive/corpus-techniques.zh-CN.md](references/archive/corpus-techniques.zh-CN.md)；skill 实际引用的是英文摘要卡。
 
 ### 安装与调用
 
@@ -197,8 +206,9 @@ $visual-novel-writing
 visual-novel-writing/
 ├── SKILL.md                    主入口：任务识别、写作循环与质量边界
 ├── agents/openai.yaml          Codex 界面展示元数据
-├── references/                 场景、结构、交互、连续性、修订与案例
+├── references/                 按任务按需读取的英文指南
 │   ├── corpus-techniques.md     32 张带适用条件和反例的候选技法卡
+│   ├── archive/corpus-techniques.zh-CN.md  技法卡中文详细工作稿（仅归档）
 │   ├── source-index.md          技法卡的作品来源索引
 │   ├── source-study.md          资料判断与技法提炼方法
 │   └── ...
@@ -247,7 +257,7 @@ python scripts/vnmd.py sample examples/umbrella.vnm.md --state examples/umbrella
 
 **ビジュアルノベルとナラティブゲームの執筆を支援する Agent Skill**です。企画、シーン執筆、続きの執筆、改稿、ルートや選択肢の設計、整合性チェック、作品例からの技法抽出に使えます。一本道の作品と分岐型の作品の両方に対応します。現在のバージョン：**0.33.0**。
 
-Skill の指示本文は現在中国語です。原稿の言語は、プロジェクト資料とユーザーの指定に従います。
+Skill の指示本文は英語です。agent はユーザーが使う言語で応答し、原稿は現在の言語または明示された指定言語で保ちます。
 
 ### この Skill について
 
@@ -277,6 +287,10 @@ VN の執筆は、魅力的な台詞を書くことだけではありません�
 6. **成果物を渡し、変更点を説明する**。使える本文やファイルを提示し、主な変更と未検証の点を簡潔にまとめます。
 
 これは作業に合わせて使う手順で、毎回すべてに回答する質問票ではありません。小さな依頼は小さく扱い、必要な参考資料やテンプレートだけを読みます。
+
+### ドキュメントの言語
+
+この README は人間の読者向けで、英語・簡体字中国語・日本語を掲載しています。agent が実行時に読む skill の指示、参考資料、テンプレート、作例は、指示の重複や不一致を避けるため英語で統一しています。評価プロンプトは言語別の挙動を確認できるよう原文の言語を維持し、生成する本文の言語はユーザーの指定に従います。技法カードの詳しい中国語作業ノートは [references/archive/corpus-techniques.zh-CN.md](references/archive/corpus-techniques.zh-CN.md) に保管し、skill が参照するカード要約は英語にしています。
 
 ### インストールと使い方
 
@@ -316,8 +330,9 @@ $visual-novel-writing
 visual-novel-writing/
 ├── SKILL.md                    メイン入口：依頼の振り分け、執筆手順、品質上の境界
 ├── agents/openai.yaml          Codex の表示用メタデータ
-├── references/                 構成、シーン、選択、整合性、改稿、事例
+├── references/                 必要に応じて読む英語のガイド
 │   ├── corpus-techniques.md     適用条件と反例を備えた技法カード 32 件
+│   ├── archive/corpus-techniques.zh-CN.md  技法カードの中国語詳細メモ（アーカイブ）
 │   ├── source-index.md          技法カードで扱う作品の索引
 │   ├── source-study.md          資料の評価と技法抽出の方法
 │   └── ...

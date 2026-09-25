@@ -1,24 +1,24 @@
-# 修订与依赖记录
+# Revision and Dependency Log
 
-## 修订批次
+## Revision pass
 
-- 基础稿／哈希或版本：
-- 本次授权目标：
-- 原稿备份／差异位置：
-- 必须保留的体验：
+- Baseline manuscript / hash or version:
+- Authorized goal for this pass:
+- Original backup / diff location:
+- Experience that must be preserved:
 
-| 问题 ID | 证据位置 | 硬错误／风险／审美判断 | 根因 | 最小有效干预 | 受影响场景与结局 | 可能损失 |
+| Issue ID | Evidence location | Error / risk / aesthetic judgment | Root cause | Smallest effective change | Affected scenes and endings | Possible loss |
 |---|---|---|---|---|---|---|
 
-## 执行结果
+## Execution record
 
-| 改动 | 实际写入位置 | 之前／之后的状态 | 连带修订完成情况 | 需回读路径 |
+| Change | Location written | State before / after | Dependent revisions completed | Paths to reread |
 |---|---|---|---|---|
 
-## 双重验收
+## Two-part acceptance
 
-- 作者检查：输入、步骤、结果、未测范围。
-- 玩家路径：实际阅读的路径、具体反馈、保留约定是否仍成立。
-- 过度修正：说明书化、道德标准答案、人物同声、审稿语句泄漏。
-- 交付文件：
-- 已完成范围／未完成范围：
+- Author check: input, steps, result, and untested scope.
+- Player path: path actually read, specific feedback, and whether the preservation brief still holds.
+- Overcorrection: exposition replacing scenes, moral answer keys, interchangeable voices, or reviewer-facing language leaking into the prose.
+- Delivered files:
+- Scope completed / scope unfinished:

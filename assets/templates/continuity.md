@@ -1,33 +1,33 @@
-# 连续性账
+# Continuity Ledger
 
-只记录作品实际需要的状态，避免每件日常小事都永久建档。
+Record only the state the work actually needs. Do not permanently track every small daily detail.
 
-## 事实与来源
+## Facts and sources
 
-| ID | 事实／规则 | 来源场景或用户决定 | 确定／传闻／假设 | 边界与反例 |
+| ID | Fact / rule | Source scene or user decision | Confirmed / rumor / assumption | Limits and counterexamples |
 |---|---|---|---|---|
 
-## 路径知识
+## Knowledge by path
 
-| 信息 ID | 世界真相 | 谁知道／误信什么 | 获得或修正的位置 | 当前玩家路径是否读到 |
+| Information ID | World truth | Who knows / believes what | Where it is learned or corrected | Has the current player path shown it? |
 |---|---|---|---|---|
 
-## 关系状态
+## Relationship state
 
-| 双方 | 已发生的具体行为 | 未解决的承诺／伤害／示好 | 当前相处方式 | 后续场景依赖 |
+| People | Specific actions that occurred | Unresolved promise / harm / affection | How they currently interact | Later scene dependencies |
 |---|---|---|---|---|
 
-## 时间、空间与物件
+## Time, space, and objects
 
-| 对象／事件 | 路径与时刻 | 位置／归属／状态 | 改变原因 | 不可自动恢复的内容 |
+| Object / event | Path and time | Location / owner / state | Cause of change | What cannot automatically reset |
 |---|---|---|---|---|
 
-## 回响与叙事承诺
+## Callbacks and narrative promises
 
-| 元素 | 初次意义 | 中间变化 | 后续兑现／有意悬置 | 所需前置信息 | 状态 |
+| Element | Initial meaning | Changes in between | Later payoff / intentional suspension | Required setup | Status |
 |---|---|---|---|---|---|
 
-## 汇合入口矩阵
+## Convergence entry matrix
 
-| 共同场景 | 入口路径 | 独有知识 | 物件／准备 | 关系差异 | 需要条件化的文本 |
+| Shared scene | Entry path | Exclusive knowledge | Object / preparation | Relationship difference | Text that must be conditional |
 |---|---|---|---|---|---|

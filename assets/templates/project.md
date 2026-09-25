@@ -1,47 +1,47 @@
-# 项目工作页
+# Project Workspace
 
-只填写本次需要的内容。未填写项不是阻止写作的必填问卷。不要把模板示意当作事实。
+Fill in only what this task needs. A blank field is not a required questionnaire item. Do not treat template examples as facts.
 
-## 当前请求
+## Current request
 
-- 本次交付：
-- 已授权修改范围／不能修改的内容：
-- 说明语言／正文语言：
-- 当前正文文件与版本：
-- 已读取范围／仍未读范围：
+- Deliverable:
+- Authorized edit scope / content that must not change:
+- Discussion language / manuscript language:
+- Current manuscript files and versions:
+- Material already read / not yet read:
 
-## 保留约定
+## Preservation brief
 
-| 要保住的具体体验 | 原文或用户要求的出处 | 确认／编辑判断 | 大改后怎样复核 |
+| Specific experience to preserve | Source in the manuscript or user request | Confirmed / editorial judgment | How to recheck after major edits |
 |---|---|---|---|
 
-## 项目契约
+## Project contract
 
-- 玩家来这里获得什么：
-- 线性／局部分支／多路线／循环／其他：
-- 叙述视角与不可靠性：
-- 主要关系与欲望冲突：
-- 规模、资产与交付格式：
-- 内容边界和未决定事项：
+- What the player comes here for:
+- Linear / local branches / multiple routes / loop / other:
+- Point of view and unreliability:
+- Main relationships and conflicts of desire:
+- Scope, assets, and delivery format:
+- Content boundaries and unresolved decisions:
 
-## 最小资料索引
+## Minimal source index
 
-| 文件／场景 | 内容 | 何时读取 | 当前状态 |
+| File / scene | Contents | When to read | Current status |
 |---|---|---|---|
 
-## 决策账
+## Decision ledger
 
-| ID | 决定或假设 | 来源 | 状态：提案／已采用／已废弃 | 影响范围 |
+| ID | Decision or assumption | Source | Status: proposed / adopted / retired | Affected scope |
 |---|---|---|---|---|
 
-## 正文进度
+## Manuscript progress
 
-| 场景／章节 | 未写／初稿／已修／已试读 | 进入依赖 | 退出变化 | 未完问题 |
+| Scene / chapter | unwritten / draft / revised / read by others | Entry dependencies | What changes on exit | Open issue |
 |---|---|---|---|---|
 
-## 本次完成与验证
+## Work completed and checked
 
-- 真正写出的范围：
-- 真正执行的检查及结果：
-- 未执行的检查：
-- 尚存风险：
+- Prose actually written:
+- Checks actually run and results:
+- Checks not run:
+- Remaining risks:

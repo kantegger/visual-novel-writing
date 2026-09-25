@@ -1,75 +1,77 @@
-# 场景、人物与语言
+# Scenes, Characters, and Language
 
-## 场景卡只是脚手架
+## A scene card is scaffolding
 
-记录进入状态、参与者、此刻愿望、对方的作用、使用的策略、发生的动作、退出变化、必要音画即可。卡片短于正文，不要求玩家看到。
+Record the entry state, participants, current desire, what the other person does, the tactic used, the action that occurs, the exit change, and any necessary audiovisuals. Keep the card shorter than the scene; players do not need to see it.
 
-一个场景可以有冲突，也可以有共同游戏、试探、等待、感官愉悦或轻松相处。不要为了符合“每场都有变化”硬造误会。真正的问题是：删掉这场，哪一种具体体验会损失？
+A scene may have conflict, but it may also offer a shared game, a test, waiting, sensory pleasure, or easy company. Do not force a misunderstanding just to make every scene “change something.” Ask instead: what specific experience would be lost if this scene were removed?
 
-## 连续场景：接住余波，再给它新的处境
+## Continuous scenes: carry the aftereffect into a new situation
 
-如果玩家确定会从上一场读到下一场，先记录离场时仍在起作用的一项选择、问题、承诺或关系变化。下一场可以用一个具体动作、物件、提问、时间结果或他人的回应接住它，再让它遇到新的压力；只补足当前入口需要的上下文，不重讲整场。若前后顺序会变、玩家可能从不同路线进入，先恢复各入口共有的事实，用条件文本或安排现场获取，不假定所有人都记得同一件事。
+If the player will certainly read one scene after another, record one choice, question, promise, or relationship change that is still active when the earlier scene ends. The next scene may pick it up through a concrete action, object, question, consequence of time, or another person's response, then put it under new pressure. Add only the context required for the current entry; do not retell the whole earlier scene.
 
-不是每场都需要回响。上一场的情绪已自然过去、下一场承担独立功能，或重复无法改变任何行动时，直接进入新处境即可。避免每场都用意象或金句收尾，再在下一场开头复述一次。
+If order can vary, or players may enter from different routes, first restore the facts common to all entries. Use conditional text or let characters learn information in the scene; do not assume every player remembers the same event.
 
-任务交接也可以是承接余波的一种方式。人物暂时离场时，可先判断眼前任务是否还要继续、替代者是否已有共同职责或明确委托：获准接手的部分可以直接做完；确实依赖离场者本人关系、权限或专属知识的环节再留待确认。不要只因为原角色不在场就让整项服务停摆；短时熟人互相代看，也不必扩写成手续对白。适用边界见[CT-24](corpus-techniques.md)。
+Not every scene needs a callback. If the previous emotion has naturally passed, the next scene has an independent function, or repetition would change no action, enter the new situation directly. Avoid ending every scene with an image or memorable line and then repeating it at the next opening.
 
-## 把形容词换成处境
+A handoff can also carry an aftereffect. When a character temporarily leaves, first ask whether the task still needs to continue and whether a substitute already shares the duty or has clear authorization. A substitute may complete the part they are authorized to handle; leave only the step that truly depends on the absent character's relationship, permission, or specific knowledge. Do not pause an entire service just because its original character is away. Two familiar people briefly covering for each other need not turn into procedural dialogue. See [CT-24](corpus-techniques.md) for limits.
 
-“温柔”：对方不接受帮助时，他是停下、追问、恼怒，还是偷偷继续？
+## Turn adjectives into situations
 
-“骄傲”：他输掉一件很小的事时会怎样保存面子？不要一上来安排人生崩溃。
+“Kind”: when someone refuses help, does the character stop, ask again, get annoyed, or keep helping in secret?
 
-“多疑”：什么证据足以让他暂时相信？他是否在亲近的人面前采用相反标准？
+“Proud”: how do they save face after losing something small? Do not start with a life-crushing defeat.
 
-“勇敢”：怕什么，怎样掩饰，行动后留下什么？勇敢不是没有感觉，也不一定正确。
+“Suspicious”: what evidence would make them trust someone temporarily? Do they apply a different standard around someone close?
 
-这些问题帮助设计行为，不要求所有品质都必须被拆穿。允许真正善良、真正可靠、真正残酷的人物存在。
+“Brave”: what are they afraid of, how do they hide it, and what remains after they act? Bravery is not the absence of feeling, and does not guarantee they are right.
 
-## 人物声音：记录心理动作，不只记录口头禅
+These questions help shape behavior; they do not require every trait to be exposed. Let genuinely kind, reliable, or cruel characters exist.
 
-分别观察词汇与句长、注意到的细节、面对压力的转移方式、怎样开玩笑、怎样说谎、怎样请求，以及什么时候失去平时的语法。人物的语言可以随对象、身份和亲疏变化。
+## Character voice: track mental moves, not only catchphrases
 
-区分声音时，也检查人物怎样处理对方给出的信息：正面接住、换一个框架、抓住其中一词、转去做事，或故意不回答。再看这个应答动作是否推动关系或当前任务。不要只给人物分配不同的机智句式。跨作品候选与局部案例见[语料技法卡](corpus-techniques.md)。
+Notice each character's vocabulary and sentence length, the details they notice, how they redirect under pressure, how they joke, lie, ask, and when they lose their usual grammar. Speech can change with audience, role, and intimacy.
 
-用同一件小事做声音试验：三个人都想让对方留下，各自会怎么说？若只是三种修辞优美的同义句，人物尚未分开。盲去姓名阅读可作提醒，不把辨认率当成文学质量指标。
+To distinguish voices, also check what each character does with the information another person offers: take it directly, reframe it, seize on one word, turn to a task, or deliberately not answer. Then ask whether that response moves the relationship or current task. Do not distinguish characters only by giving them different styles of clever one-liners. See the [corpus technique cards](corpus-techniques.md) for cross-work candidates and local cases.
 
-不要让全员擅长心理分析、准确道歉、完整解释动机。有人会先否认再行动，有人用具体事务逃避，有人说得好却做不到。也不要为“真实”让所有人故意不沟通；沉默要有局部理由。
+Test voices with the same small situation: if three people all want someone to stay, how would each ask? If the result is three elegant paraphrases, the characters are not distinct enough yet. A blind read without names can help, but do not treat recognition rate as a measure of literary quality.
 
-## 对话和独白的分工
+Do not make every character good at psychological analysis, accurate apologies, and complete explanations of their motives. One may deny something and then act; another may escape into a practical task; another may speak well and fail to follow through. Do not make everyone deliberately incommunicative in the name of “realism,” either; a character's choice not to answer needs a local reason.
 
-对话是人物在当下采取的动作：争取、拖延、讨好、试探、炫耀、拒绝、分享乐趣。信息可以在其中自然出现，也可以有人明确解释；别把“不能说明设定”当禁令。
+## Dialogue and monologue have different jobs
 
-独白呈现人物独有的感觉、偏见、联想、自我欺骗或没有说出口的话。避免台词说完后再准确翻译一次含义。保留必要的反思；删除只为防止审稿人误会而写的辩解。
+Dialogue is what a character does in the moment: persuade, delay, flatter, test, boast, refuse, or share enjoyment. Information can emerge naturally, and someone may also explain something plainly. “Never explain the setting” is not a rule.
 
-潜台词需要表层话题可以独立成立。没有具体表层活动、人人只说意味深长的话，并不等于有潜台词。
+Monologue presents a character's particular sensation, bias, association, self-deception, or unsaid thought. Avoid having a character speak and then translate the meaning accurately for the reader. Keep reflection when it matters; remove defenses written only to prevent a reviewer from misunderstanding.
 
-直接说“别走”完全可以比迂回更有效，前提是这一句出现在人物终于不能继续使用原有策略的时刻。不要替人物规定一种永远克制的高雅。
+Subtext needs a surface topic that works on its own. If there is no concrete activity and everyone only says meaningful-sounding things, that is not subtext.
 
-## 阅读单位与节奏
+Saying “Don't go” directly can be more effective than circling around it, if it arrives when the character can no longer use their old tactic. Do not prescribe permanent restraint as a mark of elegance.
 
-按语义、注意力转移、情绪变化和画面组织阅读单位。不一律一行一句；也不以换行数量证明节奏。
+## Reading units and pacing
 
-日常可以有长一点的往返、重复和跑题，但重复应积累关系或笑点。高潮可以慢下来停留在一个动作，也可以连续加速。不要每屏悬念、每段金句、每章结尾都突然响警报。
+Choose reading units according to meaning, shifts of attention, emotional change, and composition. Do not put every sentence on a separate line or use the number of line breaks as proof of pacing.
 
-对白、旁白和 cue 合起来读，检查同一个事实是否被讲了三遍。长独白并不自动失败；问它有没有独特视角、变化、声音和阅读牵引。
+Daily scenes may include longer exchanges, repetition, and digressions, but repetition should build a relationship or a joke. A climax may slow down around one action or accelerate continuously. Do not add a cliffhanger to every screen, a polished line to every paragraph, or an alarm at every chapter ending.
 
-## 感情连续性
+Read dialogue, narration, and cues together; check whether the same fact is explained three times. A long monologue is not automatically a failure. Ask whether it has a distinct viewpoint, movement, voice, and pull for the reader.
 
-除了“信任上升/下降”，还要保存没有接住的示好、尚未解释的隐瞒、承诺、羞耻、嫉妒、相处习惯的改变。不要把所有感情做成整数。
+## Emotional continuity
 
-人物可以在创伤或争执后开玩笑；检查这是掩饰、短暂喘息、关系习惯还是遗忘。不是要求受伤者永久沉重，而是不让伤害按章节重置。
+Alongside “trust increased/decreased,” preserve affection that was not accepted, concealment that remains unexplained, promises, shame, jealousy, and changes in shared habits. Do not turn every feeling into an integer.
 
-成长需要行为证据，也可以局部、反复、失败。补偿不必换来原谅；人物也可以选择原谅，不必为了复杂而禁止宽恕。
+Characters may joke after trauma or an argument. Check whether it is a defense, a brief respite, a relationship habit, or forgotten harm. The injured person need not remain solemn forever, but harm should not reset at every chapter.
 
-## 日常与趣味
+Growth needs behavioral evidence, but it may be local, repetitive, or unsuccessful. Making amends does not have to earn forgiveness; a character may also choose to forgive without making the work less complex.
 
-先找共同活动：抢插座、换座位、修东西、准备饭、错记歌词。让人物的不同方法相互碰撞。可以仅为了好玩而存在，不必最终证明它藏着社会批判。
+## Daily life and enjoyment
 
-动作微场景比“他们聊得很开心”更有用。试写一个笑点、一个没接上的回答、一次被对方记住的小偏好。不要把日常统一写成高潮前的死亡预告。
+Start with a shared activity: competing for an outlet, switching seats, fixing something, making food, or misremembering lyrics. Let the characters' different approaches collide. A moment may exist just to be fun; it does not have to prove that it hides social criticism.
 
-## 完稿后的短检查
+A small action scene is more useful than “they had a nice chat.” Try writing a joke, a missed response, or a small preference one person remembers about the other. Do not make every ordinary moment a forecast of death before the climax.
 
-去掉姓名是否仍有差异？台词是否真的回应前一句而不是接龙独白？场景有没有反复告诉读者该感动？有没有用“她懂了”跳过应该写出的理解过程？有没有为保持人物体面而让争执太快结束？
+## Short final pass
 
-只修最影响这场的两三项，不按清单逐条加段落。
+If names were removed, would the characters still sound different? Does each line answer the previous one, or is it just a chain of monologues? Does the scene keep telling the reader what to feel? Does “she understood” skip the process the scene needs to show? Did an argument end too quickly just to keep everyone dignified?
+
+Fix only the two or three issues that matter most to this scene. Do not add paragraphs to satisfy every checklist item.

@@ -1,55 +1,57 @@
-# 视听导演与阅读体验
+# Presentation Direction and the Reading Experience
 
-## 任务边界
+## Confirm the deliverable
 
-先确认交付层次：文学正文、带演出意图的剧本、分镜表，还是指定引擎可执行脚本。未选择引擎时写通用意图，不伪造可编译语法。文字资料不能证明原作实际用了什么音乐、停顿或镜头；需要录屏、截图序列或保留指令的脚本。
+First identify the intended layer: literary prose, a script with presentation intent, a storyboard, or executable script for a specified engine. If no engine is specified, describe intent in general terms; do not invent compilable syntax. Text alone cannot prove which music, pause, or shot the original actually used. That requires a recording, screenshot sequence, or script that preserves the relevant cues.
 
-## cue 的最小格式
+## Minimal cue format
 
-`触发：在哪个文本/动作事件；意图：让玩家注意/感受什么；变化：音画实际做什么；降级：无法实现或关闭音效时保留什么。`
+Trigger: the text or action event that starts it. Intent: what the player should notice or feel. Change: what audio or image actually does. Fallback: what remains if the effect is unavailable or disabled.
 
-例：
+Example:
 
-> 触发：角色确认发送之后、下一句出现前。意图：让轻松交谈突然失去支撑。变化：停背景乐，保留冰箱低鸣；不加震屏。降级：保留空出的座位和主角未发出的半句。
+> Trigger: after the character confirms the message was sent and before the next line. Intent: make a light conversation suddenly lose its support. Change: stop the background music and leave the refrigerator hum; do not shake the screen. Fallback: keep the empty seat and the protagonist's unfinished sentence.
 
-不要一行台词标一次表情，也不要为所有感情指定对应 BGM。某段沉默可以依靠空间、环境声、错开的视线或不变的构图，不统一用全黑全静音。
+Do not assign an expression to every line or a matching music cue to every emotion. A quiet beat may depend on space, ambient sound, averted eyes, or an unchanged composition; it does not always mean a black screen and no sound.
 
-## 三层演出
+## Three layers of presentation
 
-必需：线索、视角转换、关键动作的可理解性。
+Required: clues, point-of-view shifts, and key actions remain understandable.
 
-增强：让注意力与情绪更准确的构图、音色、距离、节奏。
+Enhancement: composition, timbre, distance, and pacing make attention or emotion more precise.
 
-装饰：不改变理解与体验核心的额外效果。
+Decoration: extra effects that do not change the core understanding or experience.
 
-预算紧时先保必需层，不让装饰占掉关键 CG 和人物变化。摄影化、文字参与构图、静态场景和纯文本页面都可选，不预设电影化更高级。
+When the budget is tight, protect the required layer first; decoration should not displace a key illustration or character change. Cinematic presentation, text incorporated into composition, still scenes, and text-only pages are all valid options. Do not assume a more film-like treatment is inherently better.
 
-## 自由阅读与受控时序
+## Free reading and controlled timing
 
-自由阅读的可靠同步点是点击、台词出现、选项确认、场景进入等事件，不是音乐播放第 47 秒。需要卡重音时说明循环区、等待点、旁白/语音绑定或有限锁定的演出方案，并保留跳读与回看方案。
+Reliable sync points in free reading are events such as a click, line reveal, choice confirmation, or scene entry—not the 47th second of a music track. If a beat must land precisely, state the needed loop region, wait point, voice-over binding, or limited presentation lock, and preserve ways to skip and review.
 
-自动阅读、手动点击、跳读、存档恢复和语音播放可能产生不同顺序。脚本文字阶段只标需求；实际验证后才声明节奏已在引擎中实现。
+Auto-advance, manual clicks, skipping, save restoration, and voice playback may produce different orders. At the script stage, record the requirement; claim that the engine realizes the timing only after testing it there.
 
-## 文字和画面互补，不机械去重
+## Let text and image complement each other, not mechanically avoid overlap
 
-画面能显示雨；旁白可以写主角希望雨大到对方不能离开。画面与旁白也可冲突，用于误认、自欺、反讽。直接重复有时可形成节奏或笑点，不按关键词重复率自动删除。
+An image can show rain while narration says the protagonist hopes it will rain hard enough to keep someone from leaving. Text and image may also conflict to create mistaken belief, self-deception, or irony. Direct repetition can sometimes create rhythm or a joke; do not delete it based on keyword repetition alone.
 
-不同文本框布局需要不同阅读单位。不要硬编码通用每框字数。没有字体、尺寸与设备测试时，只提供大致拆分意图，并明确最终分页待测。
+Different text-box layouts call for different reading units. Do not hard-code one universal character count per box. Without tests for font, dimensions, and device, offer only an approximate line-break plan and mark final pagination as untested.
 
-## 空间与身体
+## Space and the body
 
-用距离、遮挡、朝向、座位、手势和物品让关系可见。角色走近不必立刻立绘放大；先考虑这个动作对场景有什么意义。身体限制属于人物实际行动条件，不应临到高潮为演出方便消失。
+Use distance, obstruction, orientation, seating, gesture, and objects to make relationships visible. A character moving closer does not require the portrait to enlarge; first ask what that movement means in the scene. Physical limits are real constraints on character action and should not disappear at the climax for convenience.
 
-### 有观众的公开表演
+### Public performance with an audience
 
-当观众反馈会改变表演者的感受、选择或场面关系时，再纳入相关信号，并只选当前视点能听见、看见且有用的部分。表演者的身体/行动、观众反应和旁观者理解不必每场并列；只有某个具体旁观者的理解会影响场面时，才加入其视角。相似反馈再次出现时，让它改变行动或意义，否则可以省去。掌声、评论和单个旁观者都不是客观评分。安静或私密表演可以不写观众反应，也不必为了显得真实而加入伤病或冷场。转录文本只能支持局部的书面视点和反应，不能证明实际音乐、舞蹈、镜头或玩家体验。见[CT-25](corpus-techniques.md)。
+Include audience feedback when it changes the performer's feelings, choices, or the scene's relationships; use only signals available and useful to the current point of view. The performer's body or action, audience response, and an observer's interpretation do not all need to appear in every scene. Add an observer's viewpoint only when that person's interpretation affects what happens. If similar feedback recurs, let it change the action or meaning; otherwise it can be omitted.
 
-## 可访问性与感官边界
+Applause, comments, and one observer's opinion are not objective scores. A quiet or private performance need not have an audience reaction, and does not need an injury or awkward pause to seem realistic. A transcript supports only local written viewpoints and reactions; it cannot establish the actual music, dance, camera work, or player experience. See [CT-25](corpus-techniques.md).
 
-关键声音提供不替玩家解题的文字观察；关键颜色提供形状或标签；重要闪烁提供稳定替代。惊吓效果可以设计，但不依赖危险音量、真实次声或强烈连续闪光。
+## Accessibility and sensory boundaries
 
-关闭 BGM、音效或动态效果时，玩家仍应获得必要信息。声音隐喻属于虚构叙事，不把“坚持忍耐症状就能获得自由”推广成现实建议。
+Give important sound clues an equivalent textual observation that does not solve the puzzle for the player. Give important color cues a shape or label. Provide a stable alternative to important flashing. Startle effects are possible, but do not rely on dangerous volume, real infrasound, or intense continuous flashing.
 
-## 引擎接入验收
+The player should still receive necessary information with music, sound effects, or motion disabled. Sound metaphors belong to fiction; do not turn “endure your symptoms and you will be free” into real-world advice.
 
-确认资源 ID、表情与背景是否存在；检查恢复存档时音画状态、跳读是否越过关键确认、自动阅读是否截断语音、选项禁用原因、文本溢出和静音路径。未运行则记录为待测，不用标记检查替代实机报告。
+## Engine integration acceptance
+
+Check whether asset IDs, expressions, and backgrounds exist. Check audiovisual state after save restoration; whether skipping bypasses a key confirmation; whether auto-advance cuts off voice audio; disabled-option explanations; text overflow; and the mute path. If the engine has not been run, record these items as untested. A checklist is not an in-engine report.

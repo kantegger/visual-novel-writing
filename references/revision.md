@@ -1,67 +1,67 @@
-# 全稿修订：修问题，不换掉作品
+# Full-Manuscript Revision: Fix the Problem Without Replacing the Work
 
-## 先分清授权
+## Confirm the scope of authorization
 
-“看看有什么问题”是诊断，不是全稿覆盖。“润色”默认保留情节和人物决定。“直接全部改完”允许执行已经同意的修改及必要连带调整，不等于把作品改成另一种题材或价值观。
+“See if anything is wrong” authorizes diagnosis, not overwriting the whole manuscript. “Polish this” normally preserves plot and character decisions. “Revise everything” permits the changes already agreed on and necessary dependent edits; it does not mean changing the work into another genre or value system.
 
-用户已经给过判断与目标时直接使用，不重复问卷。确实不能确定的选择采用最少改动、可撤回的版本并标记；不以不断询问代替动笔。
+Use goals and judgments the user has already provided; do not ask the same questionnaire again. If a decision is genuinely unclear, choose the smallest reversible version and mark it. Do not replace writing with an endless chain of questions.
 
-## 第一遍：建立保留约定和阅读记录
+## Pass 1: Define what to preserve and record what you read
 
-记录最想保留的具体阅读体验，举原文位置；不要只写“保持风格”。至少区分关系吸引力、叙述声音、感官/形式特点和主要承诺。
+Name the specific reading experience that matters most and cite its location in the manuscript; “keep the style” is not enough. At minimum, distinguish relationship appeal, narrative voice, sensory or formal qualities, and major promises.
 
-全稿按顺序阅读，包括分支和结局。已读范围、尚未读取范围、出处明确记录。仅检索几个片段不能称通读；也不能让未读结尾反过来决定全稿大改。
+Read the whole manuscript in order, including branches and endings. Record what was read, what remains unread, and where each finding came from. Searching a few excerpts is not a full read. Do not make major whole-manuscript changes based on an ending you have not read.
 
-## 第二遍：把症状追到根因
+## Pass 2: Trace symptoms to root causes
 
-区分四种问题：事实/路径错误；动机与因果缺口；阅读与情绪失效；个人审美不合。前三者也须举证，第四类尤其要说明是判断而非硬错误。
+Separate four kinds of issue: fact or path errors; gaps in motivation or causality; failures of reading or emotion; and personal aesthetic disagreement. The first three also need evidence. Be especially clear that the fourth is a judgment, not a hard error.
 
-示例：高潮说服太快，根因可能是此前没有建立对方真正想保住的东西，不是最后少一段独白。优先补前面的行动链，而不是给高潮写更长的道理。
+For example, if a climax persuades someone too quickly, the root cause may be that the story never established what the other person needs to protect—not that the climax needs another monologue. Prefer adding the missing earlier action chain over making the climax explain more.
 
-每条诊断包含：位置、现象、影响、原因判断、最小干预、连带场景、可能损失、验证方法。不为把列表填满而制造问题。
+Each diagnosis should include location, symptom, effect, suspected cause, smallest intervention, dependent scenes, possible loss, and a way to verify the change. Do not invent issues to fill a list.
 
-## 第三遍：选择干预级别
+## Pass 3: Choose the level of intervention
 
-- 句子层：去重复、恢复人物语气、调整阅读单位。
-- 场景层：改变进入状态、活动、策略、结束动作。
-- 因果链层：修决定与前置/后果/回响。
-- 全局层：改变结构、重要规则、人物关系或结局契约。
+- Sentence level: remove repetition, restore character voice, adjust reading units.
+- Scene level: change the entry state, activity, tactic, or exit action.
+- Causal-chain level: repair a decision, its setup, consequences, or callbacks.
+- Whole-work level: change structure, a major rule, a relationship, or the contract with the ending.
 
-用能解决根因的最小层级，不默认大改更用心。也不要用逐句润色掩盖结构性问题。
+Use the smallest level that addresses the root cause. A larger change is not automatically more thorough. Do not use line edits to conceal a structural problem.
 
-## 第四遍：实际重写
+## Pass 4: Rewrite the actual manuscript
 
-以影响链为单位工作，保持未涉及部分。每完成一组就更新事实与关系记录，再回读相邻场景。不能在各章分别加入不相容的新解释。
+Work along the impact chain and preserve material outside the scope. After each group of changes, update the fact and relationship records, then reread adjacent scenes. Do not add incompatible explanations in separate chapters.
 
-重写目标是实际正文，不是把评语改成剧情旁白。“他终于尊重了她”需要行为支持；不一定还要留下这句结论。
+The target is actual prose, not turning critique into narration. “He finally respected her” needs evidence in behavior; the sentence itself may not need to remain.
 
-保留叙述者的偏见、诗性、冲动和不可靠性，除非它们正是要调整的问题。不要为了避免误解，让每个角色像作者的立场发言人。
+Preserve the narrator's bias, poetry, impulse, and unreliability unless those are the problems being revised. Do not turn every character into the author's spokesperson just to avoid ambiguity.
 
-## 第五遍：专查过度修正
+## Pass 5: Check specifically for overcorrection
 
-| 原本合理的修改 | 过度时的症状 | 修法 |
+| Reasonable revision goal | Symptom of overcorrection | Repair |
 |---|---|---|
-| 补足因果 | 高潮变成流程说明 | 只展示当下阻碍、动作和风险；其他移到作者资料 |
-| 增加人物复杂性 | 全员黑历史、忏悔、成熟反省 | 分开防御方式；允许少解释、多反复，也允许单纯的人 |
-| 尊重角色自主 | 每句都确认边界，关系像客服 | 把自主性体现在关键决定；让日常语言保持人物差异 |
-| 避免空洞象征 | 旁白不断声明“这不是象征” | 删除声明，用动作和物品维持具体性 |
-| 公平选择 | 菜单写成完整攻略 | 交代可判断风险，不预告所有结果 |
-| 限制能力 | 神秘感被技术说明耗尽 | 作者规则明确，人物理解可以有限 |
-| 维护后果 | 每场都总结谁欠谁 | 把后果放进之后实际相处，不逐次结算 |
-| 精简文风 | 所有人只说冷短句 | 恢复长短、情绪强弱和角色语法差异 |
+| Add causality | The climax becomes process documentation | Show the immediate obstacle, action, and risk; move the rest to author notes |
+| Add character complexity | Everyone gets a dark past, confession, and mature reflection | Give them different defenses; allow less explanation and more backsliding, as well as simple characters |
+| Respect character agency | Every line checks a boundary and the relationship sounds like customer service | Show agency in consequential decisions; let ordinary speech retain character differences |
+| Avoid empty symbolism | Narration repeatedly announces “this is not a symbol” | Remove the announcement; keep the action and object concrete |
+| Make choices fair | The menu becomes a full walkthrough | Surface risks the player can judge without predicting every result |
+| Limit abilities | Technical exposition drains the mystery | Define the rules for the author; characters may understand less |
+| Preserve consequences | Every scene tallies who owes whom | Let consequences shape later interaction instead of settling accounts each time |
+| Simplify the style | Everyone speaks in clipped, cool lines | Restore variation in length, intensity, and character-specific grammar |
 
-测试句子：“如果没有那条评语，人物在当下仍会自然这样想吗？”若只是在回应外部审稿，移除或转成旁注。不是禁止有元叙事设计的作品，只是要求这种声音是作品选择而非修稿泄漏。
+Ask: “Would this character naturally think this here if that editorial note did not exist?” If the line only answers an outside reviewer, remove it or move it into a note. This does not prohibit intentional metanarrative; it keeps revision leakage from masquerading as the work's voice.
 
-## 第六遍：按路径读，而不是按总稿看
+## Pass 6: Read by path, not as one combined document
 
-生成或手工抽取玩家实际看到的顺序。优先覆盖：主路径、低信息路径、改换立场、关键物件不同状态，以及主要结局。结构测试和阅读评价分开。
+Generate or manually extract the order the player actually sees. Prioritize the main path, low-information paths, a change of stance, different states of key objects, and major endings. Report structural checks and reading judgments separately.
 
-单路径里必须读得到所需信息；没有读到某条路线的伏笔，不能因为作者读过就要求玩家理解。合并稿的重复不一定是问题，单路径的重复才真正影响玩家。
+Necessary information must be available within the path itself. A player who never saw a clue in another route cannot be expected to understand it just because the author has read both. Repetition in a combined manuscript is not always a problem; repetition within one player path is what matters to that reader.
 
-## 输出与完成标准
+## Delivery and completion criteria
 
-全稿交付包含所有正文、分支与结束处，无占位符、无“沿用前文”代替文本。附短修改摘要和实际检查记录；正文不要夹入辩护说明。
+A full-manuscript delivery includes every affected scene, branch, and ending, with no placeholders and no “same as before” in place of prose. Include a short revision summary and records of checks actually performed; do not put defensive explanations inside the manuscript.
 
-保存原稿快照、最终文件和必要的变更记录。时间/输出限制导致局部完成时，明确哪些已写、哪些保留原稿、哪些未完成。绝不把计划、假想路径或预期运行结果写成已执行。
+Keep the original snapshot, final files, and a necessary change log. If time or output limits leave work incomplete, state exactly what was written, what remains unchanged, and what is not done. Never describe a plan, imagined path, or expected test result as already completed.
 
-停止条件：达到本次目标、关键依赖已修、没有阻断性新矛盾、完成路径阅读且未改丢保留约定。不要无限自检到语言失去活力。
+Stop when the requested goal is met, key dependencies are repaired, no blocking contradiction remains, the relevant paths have been read, and the preservation brief still holds. Do not keep revising until the language loses its life.

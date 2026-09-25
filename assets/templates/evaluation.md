@@ -1,26 +1,26 @@
-# 验证记录
+# Evaluation Record
 
-- 日期／输入版本或哈希：
-- 验证对象：skill 行为／工具代码／具体剧本／引擎演出：
-- 环境、命令或阅读步骤：
-- 实际运行样本：
-- 对照条件、模型、长度、匿名排序（未采用则注明）：
+- Date / input version or hash:
+- Target: skill behavior / utility code / specific manuscript / in-engine presentation:
+- Environment, command, or reading procedure:
+- Sample actually run:
+- Control conditions, model, output length, anonymized ordering (or state why not used):
 
-## 结构结果
+## Structural results
 
-- 格式与变量：
-- 路径／断言／覆盖和漏项：
-- 真实故障与重现步骤：
-- 未检测的语义问题：
+- Format and variables:
+- Paths / assertions / coverage and omissions:
+- Actual failures and reproduction steps:
+- Semantic issues not checked:
 
-## 阅读结果
+## Reading results
 
-| 路径／场景 | 具体感受或症状 | 原文位置 | 判断性质 | 建议 |
+| Path / scene | Specific response or symptom | Manuscript location | Type of judgment | Recommendation |
 |---|---|---|---|---|
 
-## 证据边界
+## Evidence limits
 
-- 谁读过／是否独立／是否盲测：
-- 哪些只是作者自检：
-- 哪些引擎、设备和状态组合未测：
-- 是否支持调整 skill 的候选规则：
+- Who read it / independent / blind test:
+- What was only an author self-check:
+- Untested engines, devices, and state combinations:
+- Does the evidence support changing a candidate skill rule?
