@@ -1,4 +1,4 @@
-# Visual Novel Writing · 视觉小说写作
+# Visual Novel Writing · 视觉小说写作 · ビジュアルノベル執筆
 
 [English](#english) · [简体中文](#简体中文) · [日本語](#日本語)
 
